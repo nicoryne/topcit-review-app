@@ -1,0 +1,475 @@
+[
+  {
+    "question": "What is intellectual property in the context of IT?",
+    "options": [
+      "Physical computer equipment owned by a business",
+      "Creations of the mind like software, algorithms, and business methods that can be legally protected",
+      "The intelligence level of IT professionals",
+      "Property purchased with company funds for IT departments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Intellectual property in IT refers to creations of the mind like software, algorithms, databases, and business methods that can be legally protected through patents, copyrights, trademarks, or trade secrets."
+  },
+  {
+    "question": "What is the primary purpose of a non-disclosure agreement (NDA) in IT business?",
+    "options": [
+      "To prevent employees from working for competitors",
+      "To protect proprietary and confidential information from being disclosed to third parties",
+      "To ensure employees complete their assigned tasks",
+      "To transfer intellectual property rights to the company"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Non-disclosure agreements (NDAs) are legal contracts that prohibit the signing party from disclosing proprietary or confidential information to unauthorized parties. They're commonly used in IT to protect trade secrets, source code, and other sensitive information."
+  },
+  {
+    "question": "What does ROI stand for in IT business context?",
+    "options": [
+      "Range Of Implementation",
+      "Return On Investment",
+      "Rate Of Innovation",
+      "Risk Of Integration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ROI stands for Return On Investment. It's a performance measure used to evaluate the efficiency or profitability of an investment, calculated by dividing the benefit (return) by the cost of the investment."
+  },
+  {
+    "question": "What is the purpose of a Service Level Agreement (SLA)?",
+    "options": [
+      "To define the level of service a customer can expect from a provider",
+      "To set salary levels for service technicians",
+      "To limit the legal liability of service providers",
+      "To establish service industry regulations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Service Level Agreement (SLA) is a contract between a service provider and customer that defines the level of service expected, including metrics by which service is measured, remedies or penalties for breach, and responsibilities of each party."
+  },
+  {
+    "question": "What is the difference between B2B and B2C in e-commerce?",
+    "options": [
+      "B2B is better than B2C in terms of profitability",
+      "B2B refers to business-to-business transactions, while B2C refers to business-to-consumer transactions",
+      "B2B involves electronic transactions, while B2C involves traditional retail",
+      "B2B is for small businesses, while B2C is for large corporations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B2B (Business-to-Business) refers to commerce transactions between businesses, such as a manufacturer selling to a wholesaler. B2C (Business-to-Consumer) refers to the process of selling products and services directly to consumers, like online retail shopping."
+  },
+  {
+    "question": "What is digital ethics?",
+    "options": [
+      "The study of ethical issues arising from digital technologies",
+      "Rules for proper computer usage in workplaces",
+      "Laws governing digital commerce",
+      "Guidelines for creating ethical software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digital ethics (also known as information ethics) is the branch of ethics that studies and evaluates moral problems related to data, algorithms, and corresponding practices to formulate and support morally good solutions."
+  },
+  {
+    "question": "What is a key ethical consideration in data collection?",
+    "options": [
+      "Collecting as much data as possible to maximize value",
+      "Ensuring user consent and transparency about how data will be used",
+      "Using the most advanced algorithms for data analysis",
+      "Storing data for as long as possible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ethical data collection requires obtaining informed consent from individuals, being transparent about how their data will be used, collecting only necessary data, and ensuring proper security measures are in place to protect the data."
+  },
+  {
+    "question": "What is GDPR?",
+    "options": [
+      "Global Digital Product Registry",
+      "General Data Protection Regulation",
+      "Government Digital Processing Requirements",
+      "Generalized Data Processing Rules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GDPR (General Data Protection Regulation) is a regulation in EU law on data protection and privacy that gives individuals control over their personal data and standardizes data protection law across all EU member states."
+  },
+  {
+    "question": "What is corporate social responsibility (CSR) in the IT industry?",
+    "options": [
+      "The legal requirement for corporations to be responsible for cybersecurity",
+      "A self-regulating business model that holds companies accountable for their impact on society and the environment",
+      "The responsibility of IT departments to serve corporate needs",
+      "The social media strategy of IT companies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Corporate Social Responsibility in the IT industry refers to businesses' responsibility to operate ethically and consider their social, economic, and environmental impact. This includes sustainable practices, ethical sourcing of materials, fair labor practices, and contributing positively to communities."
+  },
+  {
+    "question": "What is 'net neutrality'?",
+    "options": [
+      "The principle that internet service providers should treat all internet data equally",
+      "A neutral stance on internet regulation by governments",
+      "The concept that the internet should remain politically neutral",
+      "The balance between internet costs and benefits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Net neutrality is the principle that internet service providers should treat all internet communications equally and not discriminate or charge differently based on user, content, website, platform, application, type of equipment, or method of communication."
+  },
+  {
+    "question": "What is a 'conflict of interest' in business ethics?",
+    "options": [
+      "When two businesses compete for the same clients",
+      "When employees argue with each other",
+      "When a person's personal interests could compromise their judgment in fulfilling professional duties",
+      "When a business faces contradictory regulatory requirements"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A conflict of interest occurs when a person's personal interests (financial gain, career advancement, relationships) could potentially compromise or appear to compromise their judgment, decisions, or actions in their professional role or responsibilities."
+  },
+  {
+    "question": "What is a 'fair use' doctrine in copyright law?",
+    "options": [
+      "The requirement to fairly compensate copyright holders",
+      "A legal doctrine that permits limited use of copyrighted material without permission for purposes like criticism, comment, news reporting, teaching, or research",
+      "A law requiring fair pricing of copyrighted works",
+      "A rule that all uses of copyrighted material must be fair to the creator"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The fair use doctrine is a legal principle that allows limited use of copyrighted material without permission from the rights holder for purposes such as commentary, criticism, news reporting, research, teaching, or scholarship. It provides a balance between copyright protection and freedom of expression."
+  },
+  {
+    "question": "What is the purpose of IT governance?",
+    "options": [
+      "To regulate internet content",
+      "To ensure IT investments create business value and mitigate risks",
+      "To govern the behavior of IT professionals",
+      "To establish international IT standards"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IT governance is a framework that ensures IT investments support business objectives, optimize resources, mitigate IT-related risks, and measure performance. It involves leadership, organizational structures, and processes that ensure IT sustains and extends the organization's strategies and objectives."
+  },
+  {
+    "question": "What is algorithmic bias?",
+    "options": [
+      "A preference for using certain algorithms over others",
+      "The systematic and unfair discrimination against certain individuals or groups resulting from algorithmic decision-making",
+      "The tendency of algorithms to produce biased statistical results",
+      "A programming technique that intentionally biases results for optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Algorithmic bias occurs when an algorithm systematically and unfairly discriminates against certain individuals or groups in favor of others. This can happen due to biased training data, flawed algorithm design, or other factors."
+  },
+  {
+    "question": "What is a 'code of ethics' in the IT profession?",
+    "options": [
+      "A set of programming standards for writing clean code",
+      "A collection of rules for creating secure passwords",
+      "A set of principles that guide professional conduct and decision-making",
+      "Legal regulations governing IT businesses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A code of ethics in the IT profession is a set of principles and guidelines that establish the ethical responsibilities and professional conduct expected of IT professionals. Organizations like the ACM and IEEE have established such codes."
+  },
+  {
+    "question": "What is 'planned obsolescence' in IT product strategy?",
+    "options": [
+      "Planning for a product to become outdated to encourage consumers to buy newer versions",
+      "Creating a schedule for software updates",
+      "Developing long-term plans for product maintenance",
+      "Deliberately making products that will fail after warranty expiration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Planned obsolescence is a business strategy in which the obsolescence of a product is planned and built into it from its conception, by designing it to become out of date or non-functional after a certain period to drive consumers to purchase newer versions."
+  },
+  {
+    "question": "What is 'privacy by design' in IT development?",
+    "options": [
+      "Designing private office spaces for IT workers",
+      "Creating software with hidden features",
+      "An approach that builds privacy into products and services from the beginning",
+      "Designing systems that keep developer identities private"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Privacy by Design is an approach to systems engineering that takes privacy into account throughout the entire engineering process. It means building privacy directly into the design and operation of IT systems, business practices, and physical designs from the start."
+  },
+  {
+    "question": "What is the ethical principle of 'beneficence' in IT?",
+    "options": [
+      "Providing benefits to shareholders",
+      "Ensuring technology is used to do good and benefit society",
+      "Offering financial benefits to customers",
+      "Benefiting from technological advancements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Beneficence in IT ethics refers to the principle that technology should be used to do good and benefit society. It suggests that IT professionals have a responsibility to ensure their work contributes positively to human welfare."
+  },
+  {
+    "question": "What is the purpose of an IT Business Continuity Plan?",
+    "options": [
+      "To ensure business growth continues year over year",
+      "To maintain essential functions during and after a disaster or disruption",
+      "To plan for continuous software updates",
+      "To ensure continuous employment for IT staff"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An IT Business Continuity Plan is designed to ensure that critical business functions can continue during and after a disaster or major disruption. It includes strategies for backup, recovery, and restoration of IT systems and data."
+  },
+  {
+    "question": "What is 'green computing'?",
+    "options": [
+      "Using computers with green-colored cases",
+      "The study and practice of environmentally sustainable computing",
+      "Computing practices that save money",
+      "Using computers in agricultural applications"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Green computing, also known as sustainable computing, is the study and practice of designing, manufacturing, using, and disposing of computers, servers, and associated subsystems efficiently and effectively with minimal or no impact on the environment."
+  },
+  {
+    "question": "What is the primary purpose of the CCPA (California Consumer Privacy Act)?",
+    "options": [
+      "To regulate the use of cloud computing in California",
+      "To provide California consumers with rights regarding the collection and use of their personal information",
+      "To establish certification requirements for IT professionals in California",
+      "To protect California companies from cyber attacks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The California Consumer Privacy Act (CCPA) gives California consumers rights over their personal information, including the right to know what personal information is collected, the right to delete personal information, the right to opt-out of the sale of personal information, and the right to non-discrimination for exercising these rights."
+  },
+  {
+    "question": "What is 'digital divide' in the context of IT ethics?",
+    "options": [
+      "The gap between digital and analog technologies",
+      "The separation between IT departments and other business units",
+      "The gap between those who have access to modern information and communication technology and those who don't",
+      "The division between different digital platforms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The digital divide refers to the gap between demographics and regions that have access to modern information and communication technology, and those that don't or have restricted access. This divide can contribute to social and economic inequality and raises ethical concerns about equal access to information and opportunity."
+  },
+  {
+    "question": "What is a 'whistle-blower' in the context of business ethics?",
+    "options": [
+      "An employee who signals the end of the workday",
+      "A person who reports illegal or unethical conduct within an organization to internal or external authorities",
+      "A manager who monitors employee productivity",
+      "A security officer who uses a whistle to alert others of danger"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A whistle-blower is a person, often an employee, who exposes information or activities within a private or public organization that are deemed illegal, unethical, or incorrect. Whistleblower protections are designed to encourage reporting of misconduct without fear of retaliation."
+  },
+  {
+    "question": "What is 'information asymmetry' in business?",
+    "options": [
+      "When IT systems are not symmetrically designed",
+      "A situation where one party in a transaction has more or better information than the other",
+      "The uneven distribution of data storage across systems",
+      "When information flows more in one direction than another"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Information asymmetry occurs when one party in a business transaction has more or better information than the other. This can lead to an imbalance of power in transactions, market failure, or unethical exploitation of the less-informed party."
+  },
+  {
+    "question": "What is 'vendor lock-in' in IT business?",
+    "options": [
+      "A security measure that prevents vendor access to systems",
+      "A situation where a customer becomes dependent on a vendor for products and services and cannot easily switch to another vendor",
+      "A contract that locks vendors into specific pricing",
+      "A physical security system for vendor areas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vendor lock-in occurs when a customer becomes dependent on a vendor's products or services and cannot easily switch to another vendor without substantial costs, effort, or business disruption. This dependency can be due to proprietary technologies, data formats, or contractual obligations."
+  },
+  {
+    "question": "What is the 'triple bottom line' approach in business?",
+    "options": [
+      "A financial reporting method that triples the bottom line profits",
+      "A framework that examines a company's social, environmental, and economic impact",
+      "A strategy that focuses on the three key financial statements",
+      "A method that considers past, present, and future performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The triple bottom line is a framework that examines a company's social, environmental, and economic impact. It goes beyond the traditional focus on profits (economic) to include people (social) and planet (environmental) considerations in measuring organizational success and sustainability."
+  },
+  {
+    "question": "What is 'technological determinism'?",
+    "options": [
+      "The idea that technology determines the success of a business",
+      "The belief that technology drives social change and development, rather than human choices",
+      "The practice of using technology to determine business outcomes",
+      "The method of letting algorithms make business decisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Technological determinism is the theory that technology drives the development of social structure and cultural values, suggesting that technology shapes human behavior and society rather than the other way around. This view can overlook the important role of human agency and social factors in technological development."
+  },
+  {
+    "question": "What is the 'precautionary principle' in technology ethics?",
+    "options": [
+      "Being cautious about sharing confidential technology information",
+      "Taking preventive action in the face of uncertainty to avoid potential harm from new technologies",
+      "Testing all technology thoroughly before release",
+      "Maintaining backup systems as a precaution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The precautionary principle suggests that if an action or policy has a suspected risk of causing harm to the public or the environment, in the absence of scientific consensus, the burden of proof that it is not harmful falls on those taking the action. It advocates for caution in deploying new technologies with unknown consequences."
+  },
+  {
+    "question": "What is 'technoethics'?",
+    "options": [
+      "The ethics of teaching technology",
+      "An interdisciplinary field concerned with the ethical dimensions of technology and its impact on society",
+      "The ethical use of technical jargon",
+      "Ethics specifically for technology companies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Technoethics is an interdisciplinary field that studies the ethical implications of technological advances and their impact on society. It examines how technology shapes and is shaped by social, political, and ethical dimensions of society."
+  },
+  {
+    "question": "What is 'data sovereignty'?",
+    "options": [
+      "The concept that data is subject to the laws of the country in which it is located",
+      "The principle that individuals own their personal data",
+      "The authority of IT departments over company data",
+      "The dominance of data-driven companies in the market"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data sovereignty is the concept that data is subject to the laws and governance structures of the nation where it is collected or stored. It raises questions about jurisdiction over data and can impact where organizations choose to store their data, particularly in cloud computing environments."
+  },
+  {
+    "question": "What is 'copyleft'?",
+    "options": [
+      "The opposite of copyright, allowing unrestricted use of materials",
+      "A type of license that requires derivative works to be distributed under the same or similar license terms",
+      "A political movement advocating for the abolition of intellectual property",
+      "A copyright owned by multiple entities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Copyleft is a type of licensing arrangement that allows derivative works but requires them to be distributed under the same or similar license terms. It uses copyright law to ensure that modifications to, and extended versions of, a work remain free and available. The GNU General Public License is a well-known example."
+  },
+  {
+    "question": "What is 'technological unemployment'?",
+    "options": [
+      "Unemployment in the technology sector",
+      "Job loss due to technological change",
+      "The state of technology not being utilized",
+      "Temporary unemployment during technology implementation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Technological unemployment refers to the loss of jobs caused by technological change, particularly automation and artificial intelligence. It raises ethical questions about the responsibility of businesses and society to address displacement of workers due to technological advancement."
+  },
+  {
+    "question": "What is the 'Utilitarian approach' to ethical decision-making in IT?",
+    "options": [
+      "Making decisions based on their utility for IT operations",
+      "An approach that seeks the greatest good for the greatest number of people",
+      "Using technology in the most efficient way possible",
+      "Designing systems that are useful for all stakeholders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Utilitarian approach to ethics evaluates actions based on their consequences, specifically seeking to maximize overall happiness or well-being ('utility'). In IT, it would involve considering the total positive and negative impacts of technology decisions on all stakeholders to achieve the greatest good for the greatest number."
+  },
+  {
+    "question": "What is 'digital citizenship'?",
+    "options": [
+      "Legal citizenship status tracked through digital means",
+      "The responsible use of technology and appropriate online behavior",
+      "Participation in digital government services",
+      "Citizenship granted to AI entities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Digital citizenship refers to the responsible and appropriate use of technology, encompassing digital literacy, etiquette, security, rights, and responsibilities. It involves using technology in ethical and appropriate ways and engaging in online communities in a responsible manner."
+  },
+  {
+    "question": "What is 'blockchain' technology in business?",
+    "options": [
+      "A type of firewall that blocks chain letters",
+      "A distributed ledger technology that enables secure, transparent, and tamper-proof record-keeping",
+      "A method for chaining multiple business processes together",
+      "A technology for blocking unwanted business communications"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Blockchain is a distributed ledger technology that maintains a continuously growing list of records (blocks) that are linked and secured using cryptography. It enables secure, transparent, and tamper-proof recording of transactions without requiring a central authority, with applications in finance, supply chain, identity verification, and more."
+  },
+  {
+    "question": "What is 'data mining' in business?",
+    "options": [
+      "The process of extracting valuable minerals to power data centers",
+      "The practice of analyzing large datasets to discover patterns and extract useful information",
+      "Digging through old data archives",
+      "The illegal extraction of competitor data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data mining is the process of examining large pre-existing databases to generate new information, discovering patterns, anomalies, and correlations. Businesses use data mining to improve decision-making, predict customer behavior, detect fraud, and optimize operations."
+  },
+  {
+    "question": "What is the 'Internet of Things' (IoT)?",
+    "options": [
+      "The interconnection of computing devices embedded in everyday objects via the internet",
+      "The collection of all websites and online services",
+      "A theoretical concept about the future of the internet",
+      "A network limited to intelligent devices"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Internet of Things (IoT) refers to the network of physical objects—'things'—embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the internet. This includes everything from household appliances to industrial equipment."
+  },
+  {
+    "question": "What is 'ransomware' in IT security?",
+    "options": [
+      "Software that pays users for viewing advertisements",
+      "Malicious software that blocks access to a computer system or data until a ransom is paid",
+      "A type of antivirus that charges for premium protection",
+      "Software that randomly displays advertisements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ransomware is a type of malicious software that encrypts a victim's files or locks their computer system, demanding payment (usually in cryptocurrency) to restore access. It presents significant ethical and business challenges related to security, data protection, and response to extortion."
+  },
+  {
+    "question": "What is the 'right to be forgotten' in digital privacy?",
+    "options": [
+      "The right to be excluded from company memory training programs",
+      "The right to have personal data erased from the internet under certain conditions",
+      "The right to disconnect from work-related digital communications after hours",
+      "The right to anonymity on social media"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'right to be forgotten' (or right to erasure) is the right of individuals to have their personal data erased from the internet under certain conditions. It's particularly associated with EU law and raises questions about the balance between privacy rights and freedom of information."
+  },
+  {
+    "question": "What is 'cloud computing' in business?",
+    "options": [
+      "Using computers located in high-altitude environments",
+      "The delivery of computing services over the internet ('the cloud'), including servers, storage, databases, and software",
+      "Computing related to weather forecasting",
+      "Using computers with cloudy displays"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet ('the cloud') to offer faster innovation, flexible resources, and economies of scale. Businesses use cloud computing to reduce IT costs, scale operations, and increase agility."
+  },
+  {
+    "question": "What is 'artificial intelligence' (AI)?",
+    "options": [
+      "Any intelligence demonstrated by machines rather than natural beings",
+      "A fake form of intelligence used in marketing",
+      "Intelligence that is artificially enhanced through medication",
+      "A theoretical concept with no practical applications"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. AI encompasses various technologies like machine learning, natural language processing, and computer vision, raising significant ethical questions about automation, decision-making, and the future of work."
+  },
+  {
+    "question": "What is a 'SWOT analysis' in business planning?",
+    "options": [
+      "Software Working Operation Test",
+      "A framework evaluating Strengths, Weaknesses, Opportunities, and Threats",
+      "System-Wide Optimization Technique",
+      "Strategic Workforce Organization Tactic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SWOT analysis is a strategic planning framework used to evaluate the Strengths, Weaknesses, Opportunities, and Threats related to a business project or venture. It helps organizations identify internal and external factors that may affect their success and inform strategic decision-making."
+  },
+  {
+    "question": "What is 'big data' in business?",
+    "options": [
+      "Data that takes up a large amount of storage space",
+      "Extremely large data sets that can be analyzed to reveal patterns, trends, and associations",
+      "Important data that has significant business impact",
+      "Data from large corporations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Big data refers to extremely large and complex data sets that traditional data processing applications cannot adequately handle. Businesses analyze big data to uncover patterns, correlations, and insights to inform decision-making, improve operations, and develop new products and services."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is intellectual property in the context of IT?",
+    "options": [
+      "Physical computer equipment owned by a business",
+      "Creations of the mind like software, algorithms, and business methods that can be legally protected",
+      "The intelligence level of IT professionals",
+      "Property purchased with company funds for IT departments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Intellectual property in IT refers to creations of the mind like software, algorithms, databases, and business methods that can be legally protected through patents, copyrights, trademarks, or trade secrets."
+  },
+  {
+    "question": "What is the primary purpose of a non-disclosure agreement (NDA) in IT business?",
+    "options": [
+      "To prevent employees from working for competitors",
+      "To protect proprietary and confidential information from being disclosed to third parties",
+      "To ensure employees complete their assigned tasks",
+      "To transfer intellectual property rights to the company"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Non-disclosure agreements (NDAs) are legal contracts that prohibit the signing party from disclosing proprietary or confidential information to unauthorized parties. They're commonly used in IT to protect trade secrets, source code, and other sensitive information."
+  },
+  {
+    "question": "What does ROI stand for in IT business context?",
+    "options": [
+      "Range Of Implementation",
+      "Return On Investment",
+      "Rate Of Innovation",
+      "Risk Of Integration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ROI stands for Return On Investment. It's a performance measure used to evaluate the efficiency or profitability of an investment, calculated by dividing the benefit (return) by the cost of the investment."
+  },
+  {
+    "question": "What is the purpose of a Service Level Agreement (SLA)?",
+    "options": [
+      "To define the level of service a customer can expect from a provider",
+      "To set salary levels for service technicians",
+      "To limit the legal liability of service providers",
+      "To establish service industry regulations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Service Level Agreement (SLA) is a contract between a service provider and customer that defines the level of service expected, including metrics by which service is measured, remedies or penalties for breach, and responsibilities of each party."
+  },
+  {
+    "question": "What is the difference between B2B and B2C in e-commerce?",
+    "options": [
+      "B2B is better than B2C in terms of profitability",
+      "B2B refers to business-to-business transactions, while B2C refers to business-to-consumer transactions",
+      "B2B involves electronic transactions, while B2C involves traditional retail",
+      "B2B is for small businesses, while B2C is for large corporations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B2B (Business-to-Business) refers to commerce transactions between businesses, such as a manufacturer selling to a wholesaler. B2C (Business-to-Consumer) refers to the process of selling products and services directly to consumers, like online retail shopping."
+  },
+  {
+    "question": "What is digital ethics?",
+    "options": [
+      "The study of ethical issues arising from digital technologies",
+      "Rules for proper computer usage in workplaces",
+      "Laws governing digital commerce",
+      "Guidelines for creating ethical software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digital ethics (also known as information ethics) is the branch of ethics that studies and evaluates moral problems related to data, algorithms, and corresponding practices to formulate and support morally good solutions."
+  },
+  {
+    "question": "What is a key ethical consideration in data collection?",
+    "options": [
+      "Collecting as much data as possible to maximize value",
+      "Ensuring user consent and transparency about how data will be used",
+      "Using the most advanced algorithms for data analysis",
+      "Storing data indefinitely for future use"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Key ethical considerations in data collection include obtaining informed consent, being transparent about how data will be used, collecting only necessary data (data minimization), and ensuring proper security measures to protect the data."
+  },
+  {
+    "question": "What is the 'digital divide'?",
+    "options": [
+      "The gap between digital and analog technologies",
+      "The separation between IT and non-IT departments in companies",
+      "The gap between those who have access to digital technologies and those who don't",
+      "The difference between mobile and desktop computing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The digital divide refers to the gap between demographics and regions that have access to modern information and communications technology (including internet access) and those who don't or have restricted access. This can create social and economic inequality."
+  },
+  {
+    "question": "What is corporate social responsibility (CSR) in the IT industry?",
+    "options": [
+      "The legal requirement for corporations to be responsible for cybersecurity",
+      "A company's commitment to manage its business operations ethically and sustainably",
+      "The responsibility of social media companies to monitor content",
+      "The requirement for IT companies to provide social benefits to employees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Corporate Social Responsibility (CSR) in the IT industry refers to a company's commitment to manage its business operations ethically and sustainably, with consideration for environmental impact, social well-being, and ethical governance."
+  },
+  {
+    "question": "What is the ethical principle of 'transparency' in IT business?",
+    "options": [
+      "Making all company data public",
+      "Using clear glass in office buildings",
+      "Being open and honest about business practices, data usage, and algorithms",
+      "Allowing anyone to view source code"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Transparency in IT ethics refers to being open and honest about how data is collected, used, and shared, as well as how algorithms make decisions. It involves clear communication with users and stakeholders about business practices."
+  },
+  {
+    "question": "What is a 'conflict of interest' in business ethics?",
+    "options": [
+      "When two businesses compete for the same clients",
+      "When employees argue with each other",
+      "When personal interests could compromise professional judgment or actions",
+      "When a business operates in multiple countries with different laws"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A conflict of interest occurs when a person's personal interests could potentially compromise their judgment, decisions, or actions in a professional role. For example, a procurement officer choosing a vendor owned by a family member."
+  },
+  {
+    "question": "What is meant by 'sustainable IT'?",
+    "options": [
+      "IT systems that can run continuously without maintenance",
+      "Practices that meet present needs without compromising future generations' ability to meet their needs",
+      "IT businesses that remain profitable over long periods",
+      "Software that doesn't require updates"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sustainable IT refers to environmentally sound IT practices that meet present needs without compromising future generations. This includes energy-efficient hardware, reducing e-waste, and developing systems with minimal environmental impact."
+  },
+  {
+    "question": "What is the purpose of IT governance?",
+    "options": [
+      "To regulate internet content",
+      "To ensure IT investments create business value and mitigate risks",
+      "To prevent employees from using IT resources for personal purposes",
+      "To control government access to IT systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IT governance is a formal framework that provides a structure for organizations to ensure that IT investments support business objectives, deliver value, and mitigate IT-related risks. It involves decision rights, accountability, and practices."
+  },
+  {
+    "question": "What is 'algorithmic bias'?",
+    "options": [
+      "When algorithms prefer certain programming languages over others",
+      "When AI systems systematically produce results that favor certain groups over others",
+      "The tendency of algorithms to become less efficient over time",
+      "The bias of programmers toward creating complex algorithms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Algorithmic bias occurs when an algorithm systematically and unfairly discriminates against certain individuals or groups in favor of others. This can happen due to biased training data, flawed algorithm design, or other factors."
+  },
+  {
+    "question": "What is a 'code of ethics' in the IT profession?",
+    "options": [
+      "A set of programming standards for writing clean code",
+      "A collection of rules for creating secure passwords",
+      "A set of principles that guide professional conduct and decision-making",
+      "Legal regulations governing IT businesses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A code of ethics in the IT profession is a set of principles and guidelines that establish the ethical responsibilities and professional conduct expected of IT professionals. Organizations like the ACM and IEEE have established such codes."
+  },
+  {
+    "question": "What is 'planned obsolescence' in IT product strategy?",
+    "options": [
+      "Planning for a product to become outdated to encourage consumers to buy newer versions",
+      "Creating a schedule for software updates",
+      "Developing long-term plans for product maintenance",
+      "Deliberately making products that will fail after warranty expiration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Planned obsolescence is a business strategy in which the obsolescence of a product is planned and built into it from its conception, by designing it to become out of date or non-functional after a certain period to drive consumers to purchase newer versions."
+  },
+  {
+    "question": "What is 'privacy by design' in IT development?",
+    "options": [
+      "Designing private office spaces for IT workers",
+      "Creating software with hidden features",
+      "An approach that builds privacy into products and services from the beginning",
+      "Designing systems that keep developer identities private"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Privacy by Design is an approach to systems engineering that takes privacy into account throughout the entire engineering process. It means building privacy directly into the design and operation of IT systems, business practices, and physical designs from the start."
+  },
+  {
+    "question": "What is the ethical principle of 'beneficence' in IT?",
+    "options": [
+      "Providing benefits to shareholders",
+      "Ensuring technology is used to do good and benefit society",
+      "Offering financial benefits to customers",
+      "Benefiting from technological advancements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Beneficence in IT ethics refers to the principle that technology should be used to do good and benefit society. It suggests that IT professionals have a responsibility to ensure their work contributes positively to human welfare."
+  },
+  {
+    "question": "What is the purpose of an IT Business Continuity Plan?",
+    "options": [
+      "To ensure business growth continues year over year",
+      "To maintain essential functions during and after a disaster or disruption",
+      "To plan for continuous software updates",
+      "To ensure continuous employment for IT staff"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An IT Business Continuity Plan is designed to ensure that critical business functions can continue during and after a disaster or major disruption. It includes strategies for backup, recovery, and restoration of IT systems and data."
+  },
+  {
+    "question": "What is 'green computing'?",
+    "options": [
+      "Using computers with green-colored cases",
+      "The study and practice of environmentally sustainable computing",
+      "Computing practices that save money",
+      "Using computers in agricultural applications"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Green computing, also known as sustainable computing, is the study and practice of designing, manufacturing, using, and disposing of computers, servers, and associated subsystems efficiently and effectively with minimal or no impact on the environment."
+  }
+]

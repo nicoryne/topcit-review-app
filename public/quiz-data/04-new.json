@@ -1,0 +1,475 @@
+[
+  {
+    "question": "What is the primary goal of information security?",
+    "options": [
+      "To prevent all security breaches",
+      "To protect the confidentiality, integrity, and availability of information",
+      "To encrypt all data transmissions",
+      "To detect and punish hackers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Information security primarily aims to protect the CIA triad: Confidentiality (ensuring information is accessible only to authorized users), Integrity (maintaining accuracy and completeness of data), and Availability (ensuring information is accessible when needed)."
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      "A vulnerability that has existed for less than 24 hours",
+      "A vulnerability that can be exploited without credentials",
+      "A vulnerability that is known to attackers but has no available fix yet",
+      "A vulnerability that affects zero systems"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A zero-day vulnerability is a software security flaw that is unknown to those who should be interested in mitigating it (like the vendor). It's called 'zero-day' because there have been zero days to develop and release a patch since the vulnerability became known."
+  },
+  {
+    "question": "What is phishing?",
+    "options": [
+      "A technique for finding vulnerabilities in wireless networks",
+      "A social engineering attack that tricks users into revealing sensitive information",
+      "A method for encrypting secure communications",
+      "A type of malware that encrypts files for ransom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phishing is a type of social engineering attack where attackers disguise themselves as trustworthy entities to trick users into revealing sensitive information such as passwords, credit card numbers, or personal data."
+  },
+  {
+    "question": "What is the purpose of a firewall in network security?",
+    "options": [
+      "To prevent physical access to network equipment",
+      "To monitor and control incoming and outgoing network traffic based on predetermined security rules",
+      "To encrypt all data transmissions",
+      "To detect and remove viruses from files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. It establishes a barrier between a trusted internal network and untrusted external networks."
+  },
+  {
+    "question": "Which of the following is NOT a common authentication factor?",
+    "options": [
+      "Something you know (like a password)",
+      "Something you have (like a security token)",
+      "Something you are (like a fingerprint)",
+      "Something you share (like public information)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Common authentication factors include 'something you know' (passwords, PINs), 'something you have' (security tokens, smart cards), and 'something you are' (biometrics like fingerprints). 'Something you share' is not a standard authentication factor and contradicts the principle of authentication."
+  },
+  {
+    "question": "What is the principle of least privilege in information security?",
+    "options": [
+      "Users should have the minimum privilege necessary to perform their job functions",
+      "Security systems should use the least amount of processing power possible",
+      "Only high-level administrators should have access to security systems",
+      "Security measures should be invisible to users"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The principle of least privilege states that users or processes should be granted only the minimum level of access rights necessary to perform their job functions. This reduces the attack surface and limits potential damage from accidents or attacks."
+  },
+  {
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "Symmetric encryption is more secure, asymmetric is faster",
+      "Symmetric encryption uses the same key for encryption and decryption, asymmetric uses different keys",
+      "Symmetric encryption works on text, asymmetric works on binary data",
+      "Symmetric encryption is for local use, asymmetric is for network transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Symmetric encryption uses the same key for both encryption and decryption, making it faster but with key distribution challenges. Asymmetric encryption uses a pair of keys (public and private), providing better security for key exchange but slower processing."
+  },
+  {
+    "question": "What is a man-in-the-middle attack?",
+    "options": [
+      "An attack where a person physically positions themselves between network devices",
+      "An attack where an attacker secretly intercepts and relays communications between two parties",
+      "An attack that targets middle management in an organization",
+      "An attack that occurs midway through a data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a man-in-the-middle attack, an attacker secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker can eavesdrop on or manipulate the intercepted data."
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "options": [
+      "Authentication requiring two different passwords",
+      "Authentication using two different usernames",
+      "Authentication using two different factors, such as something you know and something you have",
+      "Authentication requiring two separate login attempts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Two-factor authentication (2FA) is a security process requiring users to provide two different authentication factors to verify their identity. Typically, this combines something you know (like a password) with something you have (like a phone) or something you are (like a fingerprint)."
+  },
+  {
+    "question": "What is a denial-of-service (DoS) attack?",
+    "options": [
+      "An attack that denies a user's service request to a company",
+      "An attack that attempts to make a network resource unavailable by flooding it with traffic or requests",
+      "An attack that denies access to specific services within an application",
+      "An attack that blocks service providers from reaching their customers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A denial-of-service (DoS) attack attempts to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the internet, typically by flooding the target with superfluous requests to overload systems."
+  },
+  {
+    "question": "What is the purpose of a CAPTCHA?",
+    "options": [
+      "To encrypt sensitive data",
+      "To distinguish between human users and automated bots",
+      "To compress data for faster transmission",
+      "To capture user information for marketing purposes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a type of challenge-response test used to determine whether the user is human or an automated bot. It helps prevent automated abuse of websites, such as spam or brute force attacks."
+  },
+  {
+    "question": "What is the difference between a virus and a worm?",
+    "options": [
+      "Viruses are more dangerous than worms",
+      "Viruses require user action to spread, worms can spread automatically",
+      "Viruses affect software, worms affect hardware",
+      "Viruses are detectable, worms are not"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A virus attaches itself to a program or file and requires human action to spread from one system to another. A worm is standalone malware that can self-replicate and spread across networks without human intervention or requiring attachment to a program."
+  },
+  {
+    "question": "What is the purpose of a security audit?",
+    "options": [
+      "To punish employees who violate security policies",
+      "To install security software across an organization",
+      "To systematically evaluate the security of a system or organization against established criteria",
+      "To detect and remove malware from systems"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A security audit is a systematic evaluation of the security of a company's information system by measuring how well it conforms to established criteria. It helps identify vulnerabilities, verify compliance with security policies and regulations, and determine the effectiveness of security controls."
+  },
+  {
+    "question": "What is the purpose of hashing in information security?",
+    "options": [
+      "To compress data to save storage space",
+      "To encrypt data for secure transmission",
+      "To create a fixed-size, unique representation of data that cannot be reversed",
+      "To speed up database searches"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hashing creates a fixed-size, unique output (hash value) from input data of any size. Unlike encryption, hashing is one-way and cannot be reversed to reveal the original data. It's used for password storage, data integrity verification, and digital signatures."
+  },
+  {
+    "question": "What is a virtual private network (VPN)?",
+    "options": [
+      "A private computer network accessible only to organization employees",
+      "A technology that creates a secure, encrypted connection over a less secure network",
+      "A network of virtual machines used for testing security measures",
+      "A private server dedicated to one organization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Virtual Private Network (VPN) creates a secure, encrypted connection over a less secure network, such as the public internet. It allows users to send and receive data across shared or public networks as if their devices were directly connected to a private network."
+  },
+  {
+    "question": "What is social engineering in the context of information security?",
+    "options": [
+      "Using social media for secure communications",
+      "Manipulating people into breaking security procedures or revealing confidential information",
+      "Designing user interfaces that encourage secure behavior",
+      "Using social networks to distribute security updates"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. It relies on human error rather than technical hacking techniques to gain access to systems, networks, or physical locations."
+  },
+  {
+    "question": "What is the purpose of encryption?",
+    "options": [
+      "To compress data for efficient storage",
+      "To convert data into a format that cannot be easily understood by unauthorized people",
+      "To speed up data transmission",
+      "To detect errors in data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption is the process of converting information or data into a code to prevent unauthorized access. It preserves the confidentiality of digital data either stored on computer systems or transmitted via networks like the internet."
+  },
+  {
+    "question": "What is a security incident response plan?",
+    "options": [
+      "A document detailing how security software should be installed",
+      "A documented approach to addressing and managing the aftermath of a security breach or attack",
+      "A plan for responding to emergency situations like fires or floods",
+      "A schedule for regular security audits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security incident response plan is a set of documented procedures that outline the organization's response to various cybersecurity incidents. It typically includes steps for identification, containment, eradication, recovery, and lessons learned following a security breach."
+  },
+  {
+    "question": "What is the purpose of a security patch?",
+    "options": [
+      "To physically cover vulnerable ports on hardware",
+      "To update software by fixing security vulnerabilities",
+      "To monitor network traffic for suspicious activity",
+      "To add new features to security software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security patch is a software update designed specifically to address security vulnerabilities in a program or operating system. Regularly applying security patches is a critical practice in maintaining system security."
+  },
+  {
+    "question": "What is the principle of defense in depth?",
+    "options": [
+      "Focusing all security resources on defending the most critical systems",
+      "Using multiple layers of security controls throughout an IT system",
+      "Defending only against the most sophisticated attacks",
+      "Employing security professionals with in-depth knowledge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defense in depth is a security strategy that employs multiple layers of controls (preventive, detective, and corrective) throughout an IT system. The idea is that if one defense fails, others will still protect the system, providing redundancy and comprehensive protection."
+  },
+  {
+    "question": "What is a distributed denial-of-service (DDoS) attack?",
+    "options": [
+      "An attack from a single source that targets multiple systems",
+      "An attack that simultaneously targets multiple security vulnerabilities",
+      "An attack from multiple sources that targets a single system",
+      "An attack that distributes malware to multiple systems"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A distributed denial-of-service (DDoS) attack is a cyberattack where multiple compromised systems (often infected with malware) are used to target a single system, service, or website. The flood of incoming traffic from multiple sources overwhelms the target, causing a denial of service for legitimate users."
+  },
+  {
+    "question": "What is a security token in authentication?",
+    "options": [
+      "A digital currency used to pay for security services",
+      "A physical or digital device used to prove identity during authentication",
+      "A reward given to users who report security vulnerabilities",
+      "A special character required in secure passwords"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security token is a physical or digital device used to prove identity during authentication. Physical tokens might include smart cards or key fobs, while digital tokens might be software-generated one-time passwords. They serve as the 'something you have' factor in multi-factor authentication."
+  },
+  {
+    "question": "What is a buffer overflow attack?",
+    "options": [
+      "An attack that fills up disk space until a system crashes",
+      "An attack that overloads network buffers with traffic",
+      "An attack where more data is put into a buffer than it can handle, allowing arbitrary code execution",
+      "An attack that uses excessive memory until all system resources are consumed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A buffer overflow occurs when a program or process attempts to write more data to a fixed-length block of memory (a buffer) than the buffer is allocated to hold. Attackers can use this to overwrite adjacent memory, potentially changing program execution or executing malicious code."
+  },
+  {
+    "question": "What is cross-site scripting (XSS)?",
+    "options": [
+      "Writing code that works across multiple sites",
+      "A vulnerability that allows attackers to inject client-side scripts into web pages viewed by others",
+      "Copying scripts from one website to use on another",
+      "Using the same programming language across different platforms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cross-site scripting (XSS) is a security vulnerability that allows attackers to inject client-side scripts into web pages viewed by other users. When successful, it can be used to bypass access controls, steal cookies, or perform unauthorized actions on behalf of the victim."
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      "Injecting SQL databases into applications",
+      "A technique for optimizing SQL queries",
+      "An attack that inserts malicious SQL code into input fields to manipulate databases",
+      "A method for importing SQL data quickly"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SQL injection is an attack where malicious SQL statements are inserted into entry fields in an application, which are then executed by the database. It can allow attackers to view, modify, or delete data, and potentially gain administrative access to the database."
+  },
+  {
+    "question": "What is a brute force attack?",
+    "options": [
+      "A physical attack on server hardware",
+      "An attack that uses raw computing power to try every possible combination until finding the correct one",
+      "An attack that forcefully shuts down systems",
+      "An attack that directly confronts system administrators"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A brute force attack is a trial-and-error method used to obtain information such as passwords or encryption keys. The attacker systematically tries all possible combinations of characters until finding the correct one, relying on computational power rather than exploiting vulnerabilities."
+  },
+  {
+    "question": "What is the purpose of a honeypot in security?",
+    "options": [
+      "To attract and detect attackers by appearing to be a legitimate system",
+      "To store and protect the most valuable data",
+      "To sweeten the security experience for end users",
+      "To trap malware before it can spread"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A honeypot is a security mechanism set to detect, deflect, or counteract attempts at unauthorized use of information systems. It appears to be a legitimate part of the network but is actually isolated and monitored, designed to attract attackers to study their tactics or distract them from legitimate targets."
+  },
+  {
+    "question": "What is data loss prevention (DLP)?",
+    "options": [
+      "A backup strategy to prevent data loss during system failures",
+      "A strategy and tools designed to detect and prevent unauthorized transmission of sensitive data",
+      "An insurance policy that covers costs associated with data breaches",
+      "A technique for compressing data to save storage space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data Loss Prevention (DLP) refers to strategies and tools designed to ensure that sensitive data is not lost, misused, accessed by unauthorized users, or sent outside the corporate network. DLP solutions monitor, detect, and block sensitive data while in use, in motion, or at rest."
+  },
+  {
+    "question": "What is the purpose of an intrusion detection system (IDS)?",
+    "options": [
+      "To prevent unauthorized physical access to facilities",
+      "To monitor network or system activities for malicious activities or policy violations",
+      "To encrypt sensitive data transmissions",
+      "To authenticate users before granting system access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Intrusion Detection System (IDS) monitors network or system activities for malicious activities or policy violations and produces reports to a management station. It focuses on identifying possible incidents, logging information about them, and reporting attempts."
+  },
+  {
+    "question": "What is the difference between an IDS and an IPS?",
+    "options": [
+      "IDS is for internal networks, IPS is for perimeter security",
+      "IDS detects suspicious activity, IPS actively prevents or blocks detected threats",
+      "IDS is hardware-based, IPS is software-based",
+      "IDS is obsolete technology, IPS is the modern replacement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Intrusion Detection System (IDS) monitors and alerts on suspicious activity but doesn't take action. An Intrusion Prevention System (IPS) not only detects but also actively prevents or blocks detected threats, such as dropping malicious packets, resetting connections, or blocking traffic from offending IP addresses."
+  },
+  {
+    "question": "What is a security information and event management (SIEM) system?",
+    "options": [
+      "A physical security system for managing building access events",
+      "A system that provides real-time analysis of security alerts from network hardware and applications",
+      "A management approach for planning security events like training",
+      "A system for managing information about security personnel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Security Information and Event Management (SIEM) system combines security information management (SIM) and security event management (SEM) to provide real-time analysis of security alerts generated by network hardware and applications, log storage, and historical analysis for compliance reporting and forensics."
+  },
+  {
+    "question": "What is the principle of separation of duties in information security?",
+    "options": [
+      "Separating network duties from system administration duties",
+      "Dividing critical functions among different employees to prevent fraud and errors",
+      "Keeping development environments separate from production environments",
+      "Separating internal networks from external networks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Separation of duties is a security principle that divides critical functions among different employees to ensure that no single individual has all the permissions necessary to complete a high-risk task alone. This helps prevent fraud, errors, and conflicts of interest."
+  },
+  {
+    "question": "What is threat modeling in information security?",
+    "options": [
+      "Creating 3D models of potential attackers",
+      "A systematic approach to identifying, quantifying, and addressing security threats",
+      "Developing physical models of secure facilities",
+      "Modeling network traffic patterns to identify abnormalities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Threat modeling is a structured approach to identifying, quantifying, and addressing security threats and vulnerabilities in a system. It involves understanding the adversary's perspective, identifying assets, threats, and vulnerabilities, and determining countermeasures to prevent or mitigate attacks."
+  },
+  {
+    "question": "What is the purpose of a security operations center (SOC)?",
+    "options": [
+      "To develop security software",
+      "To centralize security monitoring, incident response, and security operations",
+      "To physically secure an organization's buildings",
+      "To train employees on security procedures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Security Operations Center (SOC) is a centralized unit that deals with security issues on an organizational and technical level. It houses the team responsible for monitoring, assessing, and defending an organization's information systems, employing various technologies and processes to detect and respond to cybersecurity incidents."
+  },
+  {
+    "question": "What is sandboxing in information security?",
+    "options": [
+      "A technique for securing outdoor computing environments",
+      "A security practice for testing applications in isolated environments",
+      "A method for securing data by burying backup media underground",
+      "A technique for filtering malicious content from web pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sandboxing is a security mechanism that isolates running programs in a restricted environment, preventing them from making changes to the system or accessing sensitive resources. It's commonly used to test untrusted or potentially malicious code without risking harm to the host system."
+  },
+  {
+    "question": "What is the CIA triad in information security?",
+    "options": [
+      "Central Intelligence Agency's security framework",
+      "Computer Integrity Alliance standards",
+      "Confidentiality, Integrity, and Availability - core principles of information security",
+      "Critical Infrastructure Assessment methodology"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The CIA triad refers to the three core principles of information security: Confidentiality (ensuring information is accessible only to authorized individuals), Integrity (maintaining accuracy and trustworthiness of data), and Availability (ensuring information is accessible when needed by authorized users)."
+  },
+  {
+    "question": "What is a security vulnerability?",
+    "options": [
+      "Any weakness in an information system's design, implementation, or operation",
+      "A lack of physical security measures",
+      "A lack of security training among staff",
+      "The absence of security software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A security vulnerability is a weakness in an information system, system security procedures, internal controls, or implementation that could be exploited by a threat source. Vulnerabilities may exist in system design, code, configuration, or operation and can lead to security breaches if exploited."
+  },
+  {
+    "question": "What is penetration testing?",
+    "options": [
+      "Testing the physical security of a building by attempting to penetrate its defenses",
+      "Testing the strength of network cables and connections",
+      "An authorized simulated attack on a computer system to evaluate its security",
+      "Testing how deeply malware can penetrate a system"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Penetration testing (or pen testing) is an authorized simulated cyberattack on a computer system, performed to evaluate the system's security. Penetration testers use the same tools and techniques as attackers to find and demonstrate the business impacts of weaknesses in a system."
+  },
+  {
+    "question": "What is a security control?",
+    "options": [
+      "A device that controls physical access to secure areas",
+      "A safeguard or countermeasure designed to protect the confidentiality, integrity, and availability of information",
+      "A centralized control panel for security systems",
+      "A regulatory body that oversees security practices"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security control is a safeguard or countermeasure designed to protect the confidentiality, integrity, and availability of information. Controls can be administrative (policies and procedures), technical (hardware and software mechanisms), or physical (devices and measures to protect physical assets)."
+  },
+  {
+    "question": "What is the purpose of a security policy?",
+    "options": [
+      "To list all security software used by an organization",
+      "To outline the rules and practices for how an organization manages and protects its information and systems",
+      "To document the results of security audits",
+      "To provide instructions for installing security software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security policy defines the rules and practices for how an organization manages, protects, and distributes sensitive information. It establishes what actions are allowed and which are prohibited, outlines responsibilities, and provides a framework for making security-related decisions."
+  },
+  {
+    "question": "What is a rootkit?",
+    "options": [
+      "Software that gives administrators root access to systems",
+      "Malicious software designed to provide unauthorized access while hiding its existence",
+      "A toolkit for managing root certificates in encryption",
+      "Software for analyzing root causes of security incidents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A rootkit is a collection of malicious software designed to enable unauthorized access to a computer or area of its software while actively hiding its presence. The term comes from Unix/Linux 'root' (administrator) access, but rootkits exist for various operating systems."
+  },
+  {
+    "question": "What is security through obscurity?",
+    "options": [
+      "The practice of hiding security measures to make them more effective",
+      "The belief that hiding system details provides adequate security",
+      "The use of complex security terminology to confuse attackers",
+      "The practice of obscuring sensitive data in transmissions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Security through obscurity is the belief that a system can be secure by simply hiding its details, rather than addressing underlying security issues. It's generally considered a poor security practice as it relies on secrecy rather than inherent security in the system's design."
+  },
+  {
+    "question": "What is the purpose of a security awareness program?",
+    "options": [
+      "To make employees aware of the presence of security cameras",
+      "To educate users about security threats and best practices to mitigate risks",
+      "To showcase an organization's security capabilities to clients",
+      "To increase awareness of security products available on the market"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security awareness program educates users about security threats, vulnerabilities, and best practices to help them protect themselves and organizational assets. It aims to change behaviors and reinforce good security practices, recognizing that humans are often the weakest link in security."
+  }
+]

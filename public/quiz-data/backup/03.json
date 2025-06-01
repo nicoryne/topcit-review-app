@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which architectural style is characterized by client-server communication over HTTP, statelessness, and uniform interfaces?",
+    "options": [
+      "SOAP",
+      "REST",
+      "GraphQL",
+      "CORBA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "REST (Representational State Transfer) is an architectural style characterized by stateless client-server communication over HTTP, with resources accessed via uniform interfaces (URLs)."
+  },
+  {
+    "question": "What is the main purpose of a load balancer in system architecture?",
+    "options": [
+      "To increase storage capacity",
+      "To distribute network traffic across multiple servers",
+      "To encrypt data transmissions",
+      "To compress data for faster transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, thereby improving reliability and availability."
+  },
+  {
+    "question": "Which of the following is NOT a common architectural pattern?",
+    "options": [
+      "Microservices",
+      "Model-View-Controller (MVC)",
+      "Event-Driven Architecture",
+      "Single-Relay Transmission (SRT)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Single-Relay Transmission (SRT) is not a common architectural pattern. The others—Microservices, MVC, and Event-Driven Architecture—are well-established patterns in system design."
+  },
+  {
+    "question": "What is a key characteristic of microservices architecture?",
+    "options": [
+      "All services share a single database",
+      "Services are deployed as a single monolithic unit",
+      "Each service is independently deployable and loosely coupled",
+      "Services must all be written in the same programming language"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A key characteristic of microservices architecture is that services are independently deployable and loosely coupled, allowing teams to develop, deploy, and scale individual services independently."
+  },
+  {
+    "question": "What is the role of an API Gateway in a microservices architecture?",
+    "options": [
+      "To manage database connections",
+      "To serve as a single entry point for client requests, routing them to appropriate services",
+      "To provide backup and recovery for all services",
+      "To monitor system performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An API Gateway serves as a single entry point for all client requests, routing them to the appropriate microservices, handling cross-cutting concerns like authentication, and potentially aggregating responses."
+  },
+  {
+    "question": "Which of the following best describes scalability in system architecture?",
+    "options": [
+      "The ability of a system to handle increasing amounts of work by adding resources",
+      "The ability of a system to recover quickly from failures",
+      "The ability of a system to secure data transmissions",
+      "The ability of a system to process real-time data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scalability refers to a system's ability to handle growing amounts of work, or its potential to accommodate growth, typically by adding resources either vertically (more powerful machines) or horizontally (more machines)."
+  },
+  {
+    "question": "What is the difference between horizontal scaling and vertical scaling?",
+    "options": [
+      "Horizontal scaling increases hardware capacity, vertical scaling adds more machines",
+      "Horizontal scaling adds more machines, vertical scaling increases hardware capacity",
+      "Horizontal scaling is for databases, vertical scaling is for web servers",
+      "Horizontal scaling is for cloud systems, vertical scaling is for on-premises systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horizontal scaling (scaling out) adds more machines to a system, distributing the load. Vertical scaling (scaling up) adds more power (CPU, RAM) to an existing machine. Both approaches help handle increasing load."
+  },
+  {
+    "question": "What is a container in the context of system architecture?",
+    "options": [
+      "A physical storage unit for servers",
+      "A standardized unit of software that packages code and dependencies together",
+      "A database management system",
+      "A network protocol for secure data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In system architecture, a container is a standardized unit of software that packages code and its dependencies together, ensuring the application runs quickly and reliably in any computing environment."
+  },
+  {
+    "question": "Which of the following is a benefit of serverless architecture?",
+    "options": [
+      "Complete control over the server environment",
+      "Reduced operational costs as you only pay for actual compute time used",
+      "Simplified debugging and monitoring",
+      "Better performance for long-running, resource-intensive tasks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A key benefit of serverless architecture is reduced operational costs, as you only pay for the actual compute time your code consumes, not for idle server time. This can be significantly more cost-effective for certain workloads."
+  },
+  {
+    "question": "What is the Circuit Breaker pattern in system architecture?",
+    "options": [
+      "A method for distributing electricity in data centers",
+      "A security mechanism to prevent unauthorized access",
+      "A design pattern that prevents a cascade of failures in distributed systems",
+      "A technique for optimizing database queries"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Circuit Breaker pattern is a design pattern used in modern software development to detect failures and prevent them from constantly recurring, similar to an electrical circuit breaker. It helps build resilient distributed systems."
+  },
+  {
+    "question": "What is the purpose of a Content Delivery Network (CDN)?",
+    "options": [
+      "To create dynamic content for websites",
+      "To reduce latency by serving content from locations closer to users",
+      "To manage database connections",
+      "To provide secure VPN connections"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Content Delivery Network (CDN) reduces latency by distributing service spatially relative to end-users, serving content from locations closer to the user to minimize loading times."
+  },
+  {
+    "question": "Which of the following describes a 'stateless' service?",
+    "options": [
+      "A service that doesn't store any data permanently",
+      "A service that doesn't maintain session information between requests",
+      "A service that only runs in memory",
+      "A service that has no user interface"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A stateless service doesn't maintain session information between client requests. Each request is processed independently, without relying on information from previous requests. This makes such services easier to scale horizontally."
+  },
+  {
+    "question": "What is the main advantage of using a message queue in a distributed system?",
+    "options": [
+      "It improves data encryption",
+      "It decouples different parts of the system, allowing them to operate independently",
+      "It provides a user interface for system administrators",
+      "It reduces the need for databases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Message queues decouple different components of a distributed system, allowing them to communicate asynchronously and operate independently. This improves resilience and scalability of the system."
+  },
+  {
+    "question": "What is a service mesh in microservices architecture?",
+    "options": [
+      "A physical network of servers",
+      "A dedicated infrastructure layer for handling service-to-service communication",
+      "A type of database optimized for microservices",
+      "A programming language for microservices development"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A service mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices, handling network functions like service discovery, load balancing, encryption, and failure recovery."
+  },
+  {
+    "question": "What is the CAP theorem in distributed systems?",
+    "options": [
+      "A theorem stating that you can only have two of three properties: Consistency, Availability, and Partition tolerance",
+      "A method for optimizing CPU, Application, and Process in systems",
+      "A security framework for Confidentiality, Authentication, and Protection",
+      "A design principle for Caching, APIs, and Protocols"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CAP theorem states that a distributed data store cannot simultaneously provide more than two out of three guarantees: Consistency (all nodes see the same data at the same time), Availability (every request receives a response), and Partition tolerance (the system continues to operate despite network partitions)."
+  },
+  {
+    "question": "Which of the following is NOT a common component in a three-tier architecture?",
+    "options": [
+      "Presentation tier",
+      "Logic tier",
+      "Data tier",
+      "Integration tier"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A traditional three-tier architecture consists of the Presentation tier (user interface), Logic tier (business logic), and Data tier (database). 'Integration tier' is not a standard component of this model."
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in system architecture?",
+    "options": [
+      "To allow internal clients to access external resources",
+      "To route client requests to the appropriate back-end server and return the server's response to the client",
+      "To optimize database queries",
+      "To compress data for storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A reverse proxy receives client requests, forwards them to the appropriate back-end server, and returns the server's response to the client. It can provide benefits like load balancing, caching, and security."
+  },
+  {
+    "question": "What is the primary purpose of an event-driven architecture?",
+    "options": [
+      "To minimize system resource usage",
+      "To simplify database design",
+      "To produce and consume events for loosely coupled, scalable systems",
+      "To improve user interface responsiveness"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Event-driven architecture is a design pattern built around the production, detection, consumption of, and reaction to events. It enables loosely coupled systems that can be more resilient and scalable."
+  },
+  {
+    "question": "Which pattern is used to handle temporary failures in distributed systems by retrying operations?",
+    "options": [
+      "Circuit Breaker pattern",
+      "Retry pattern",
+      "Bulkhead pattern",
+      "Saga pattern"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Retry pattern enables an application to handle transient failures by transparently retrying a failed operation, with the expectation that the cause of the failure is transient and likely to be resolved on a retry."
+  },
+  {
+    "question": "What is the primary purpose of a data cache in system architecture?",
+    "options": [
+      "To permanently store critical data",
+      "To improve performance by storing frequently accessed data in memory",
+      "To encrypt sensitive information",
+      "To compress data for efficient storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data cache improves system performance by temporarily storing copies of frequently accessed data in a high-speed storage layer (usually memory), reducing the need to fetch the data from its original, slower storage location."
+  }
+]

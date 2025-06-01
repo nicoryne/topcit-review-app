@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which of the following is NOT a type of database model?",
+    "options": [
+      "Relational",
+      "Document-oriented",
+      "Procedural",
+      "Graph"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Procedural is not a type of database model. Common database models include Relational (like MySQL), Document-oriented (like MongoDB), Graph (like Neo4j), and others such as Key-Value and Columnar."
+  },
+  {
+    "question": "What does SQL JOIN do?",
+    "options": [
+      "It deletes records from multiple tables",
+      "It combines rows from two or more tables based on a related column",
+      "It creates a backup of the database",
+      "It splits a table into multiple tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SQL JOIN combines rows from two or more tables based on a related column between them, allowing you to retrieve data from multiple tables in a single query."
+  },
+  {
+    "question": "What is the purpose of normalization in database design?",
+    "options": [
+      "To increase the speed of database queries",
+      "To encrypt sensitive data",
+      "To eliminate redundancy and ensure data integrity",
+      "To compress data to save storage space"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Normalization is the process of organizing data to minimize redundancy and dependency by dividing large tables into smaller tables and defining relationships between them. This helps ensure data integrity."
+  },
+  {
+    "question": "Which of the following best describes Big Data?",
+    "options": [
+      "Any dataset larger than 1 terabyte",
+      "Data that is too large, complex, or fast-changing to be processed by traditional methods",
+      "A specific database technology developed by Google",
+      "A type of database that only stores numerical data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Big Data refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. It's characterized by the 'Three Vs': volume, velocity, and variety."
+  },
+  {
+    "question": "What is a data warehouse?",
+    "options": [
+      "A physical storage facility for computer hardware",
+      "A central repository of integrated data from multiple sources designed for query and analysis",
+      "A backup system for database recovery",
+      "A cloud-based file storage service"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data warehouse is a central repository of integrated data from one or more disparate sources. They store current and historical data and are designed to facilitate reporting and analysis."
+  },
+  {
+    "question": "Which of the following is a characteristic of NoSQL databases?",
+    "options": [
+      "They always use SQL for queries",
+      "They only store text data",
+      "They typically offer high scalability and flexibility with data models",
+      "They require strict schema definitions for all data"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NoSQL databases typically offer high scalability and flexibility with data models. Unlike traditional relational databases, they often don't require a fixed schema and can handle various data types and structures."
+  },
+  {
+    "question": "What is data mining?",
+    "options": [
+      "The process of extracting minerals from computer hardware",
+      "The process of discovering patterns and knowledge from large amounts of data",
+      "The process of backing up data to secure locations",
+      "The process of transferring data between different databases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data mining is the process of discovering patterns, correlations, anomalies, and useful information from large data sets using methods at the intersection of machine learning, statistics, and database systems."
+  },
+  {
+    "question": "Which of the following is NOT a common data visualization technique?",
+    "options": [
+      "Bar charts",
+      "Heat maps",
+      "Data compression",
+      "Scatter plots"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Data compression is not a visualization technique but a method to reduce data size. Bar charts, heat maps, and scatter plots are all common ways to visually represent data for analysis and presentation."
+  },
+  {
+    "question": "What is the difference between structured and unstructured data?",
+    "options": [
+      "Structured data is digital while unstructured data is analog",
+      "Structured data is organized in a predefined manner while unstructured data lacks a predefined format",
+      "Structured data is encrypted while unstructured data is not",
+      "Structured data is stored in the cloud while unstructured data is stored locally"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Structured data follows a rigid format and can be easily stored in rows and columns (like in relational databases). Unstructured data lacks a predefined format or organization, making it more difficult to process (examples include text documents, social media posts, videos)."
+  },
+  {
+    "question": "What is ETL in data management?",
+    "options": [
+      "Evaluate, Transform, Load",
+      "Extract, Test, Load",
+      "Extract, Transform, Load",
+      "Evaluate, Test, Link"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ETL stands for Extract, Transform, Load. It's a process used to collect data from various sources, transform it to fit operational needs, and load it into a destination database or data warehouse."
+  },
+  {
+    "question": "Which of the following is a primary key constraint property?",
+    "options": [
+      "It allows duplicate values",
+      "It cannot contain NULL values",
+      "It must be a text field",
+      "It requires at least two columns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A primary key constraint ensures that a column (or combination of columns) has unique values and cannot contain NULL values. This uniquely identifies each record in a database table."
+  },
+  {
+    "question": "What is ACID in the context of database transactions?",
+    "options": [
+      "A database security protocol",
+      "A set of properties (Atomicity, Consistency, Isolation, Durability) that guarantee reliable database transactions",
+      "A type of database query language",
+      "A method for optimizing database performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are processed reliably, maintaining data integrity even in the event of errors or system failures."
+  },
+  {
+    "question": "What is the main purpose of an index in a database?",
+    "options": [
+      "To provide a summary of the database content",
+      "To speed up data retrieval operations",
+      "To encrypt sensitive data",
+      "To create relationships between tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main purpose of an index in a database is to speed up data retrieval operations. Indexes allow the database management system to find and access specific rows much faster without having to scan the entire table."
+  },
+  {
+    "question": "Which type of join returns rows when there is at least one match in both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An INNER JOIN returns rows when there is at least one match in both tables. If there is no match, the rows are not included in the result set."
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "To sort the result set",
+      "To filter rows before grouping",
+      "To group rows that have the same values into summary rows",
+      "To join multiple tables together"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The GROUP BY clause in SQL is used to group rows that have the same values into summary rows, like 'find the number of customers in each country'. It is often used with aggregate functions like COUNT, MAX, MIN, SUM, and AVG."
+  },
+  {
+    "question": "What is data integrity?",
+    "options": [
+      "The security level of a database",
+      "The accuracy, consistency, and reliability of data throughout its lifecycle",
+      "The speed at which data can be retrieved",
+      "The amount of data that can be stored in a database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data integrity refers to the accuracy, consistency, and reliability of data throughout its lifecycle. It ensures that data remains unaltered in transit and is a critical aspect of database design, implementation, and usage."
+  },
+  {
+    "question": "What is the difference between a database and a data warehouse?",
+    "options": [
+      "Databases are smaller than data warehouses",
+      "Databases are used for data storage and transaction processing, while data warehouses are optimized for analysis and reporting",
+      "Databases can only store structured data, while data warehouses can store any type of data",
+      "Databases are cloud-based, while data warehouses are on-premises"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Databases are designed for operational systems and transaction processing (OLTP - Online Transaction Processing), focusing on fast query processing and maintaining data integrity. Data warehouses are optimized for analysis and reporting (OLAP - Online Analytical Processing), storing historical data from multiple sources."
+  },
+  {
+    "question": "What is a foreign key in a relational database?",
+    "options": [
+      "A key used to encrypt database contents",
+      "A key that must be unique across all databases in a system",
+      "A field that links to the primary key of another table",
+      "A backup key used when the primary key fails"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table. It establishes a link between the data in the two tables, maintaining referential integrity."
+  },
+  {
+    "question": "Which of the following is NOT a common data quality issue?",
+    "options": [
+      "Duplicate data",
+      "Incomplete data",
+      "Encrypted data",
+      "Inconsistent data formats"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Encrypted data is not inherently a data quality issue; in fact, encryption is often used to protect data. Common data quality issues include duplicate entries, incomplete records, and inconsistent formatting across records."
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter rows before they are grouped",
+      "To filter groups based on a specified condition",
+      "To specify the columns to be returned in the result set",
+      "To join tables together"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The HAVING clause in SQL is used to filter groups based on a specified condition. It is similar to the WHERE clause, but it is used to filter groups created by the GROUP BY clause rather than individual rows."
+  }
+]

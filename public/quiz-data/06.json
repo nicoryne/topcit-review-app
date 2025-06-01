@@ -1,0 +1,497 @@
+[
+  {
+    "question": "What is a project in the context of project management?",
+    "options": [
+      "Any task assigned to an IT team",
+      "A temporary endeavor undertaken to create a unique product, service, or result",
+      "A long-term business operation",
+      "A software development methodology"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project is a temporary endeavor with a defined beginning and end, undertaken to create a unique product, service, or result. It's distinct from ongoing operations because it has specific objectives and constraints of time, cost, and scope."
+  },
+  {
+    "question": "What are the main constraints in project management often referred to as the 'Triple Constraint'?",
+    "options": [
+      "People, Process, Technology",
+      "Cost, Time, Scope",
+      "Risk, Quality, Resources",
+      "Planning, Execution, Monitoring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Triple Constraint in project management refers to the three primary competing constraints: Cost (budget), Time (schedule), and Scope (what must be done). Changes to any one constraint typically affect the others, requiring trade-offs."
+  },
+  {
+    "question": "What is the primary purpose of a project charter?",
+    "options": [
+      "To list all project team members and their contact information",
+      "To formally authorize the project and document initial requirements and stakeholder expectations",
+      "To establish the project budget in detail",
+      "To outline the technical specifications of the deliverables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project charter formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. It documents high-level requirements, objectives, and stakeholder expectations."
+  },
+  {
+    "question": "What is the critical path in project management?",
+    "options": [
+      "The most expensive sequence of tasks in a project",
+      "The sequence of tasks that must be completed on time for the project to finish on schedule",
+      "The riskiest tasks in the project",
+      "The tasks assigned to the most critical team members"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The critical path is the sequence of project activities that determine the shortest possible project duration. Any delay in tasks on the critical path will delay the entire project unless corrective action is taken."
+  },
+  {
+    "question": "What is the purpose of a Work Breakdown Structure (WBS)?",
+    "options": [
+      "To assign team members to specific tasks",
+      "To track project expenses in detail",
+      "To decompose the project scope into manageable deliverables and work packages",
+      "To outline the project timeline with specific dates"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Work Breakdown Structure (WBS) is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. It organizes and defines the total scope of the project."
+  },
+  {
+    "question": "What is the difference between a risk and an issue in project management?",
+    "options": [
+      "Risks are positive while issues are negative",
+      "Risks are potential future events while issues are problems that have already occurred",
+      "Risks affect cost while issues affect schedule",
+      "Risks are managed by the project manager while issues are managed by the team"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A risk is an uncertain event that might happen in the future and could impact project objectives (positively or negatively). An issue is a problem that has already occurred and requires resolution. Risk management is proactive, while issue management is reactive."
+  },
+  {
+    "question": "What is a milestone in project management?",
+    "options": [
+      "A significant point or event in the project lifecycle",
+      "A metric used to measure project success",
+      "A technique for estimating project duration",
+      "A mandatory project review meeting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A milestone is a significant point or event in a project that marks the completion of a major deliverable or phase. Milestones have zero duration and serve as markers to help monitor progress and communicate important achievements."
+  },
+  {
+    "question": "What is the difference between a deliverable and a milestone?",
+    "options": [
+      "Deliverables are internal while milestones are external",
+      "Deliverables are tangible outputs while milestones are significant points in time",
+      "Deliverables are optional while milestones are mandatory",
+      "Deliverables are for the client while milestones are for the team"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deliverable is a tangible or intangible product or result that must be produced to complete a project or part of a project. A milestone is a significant point or event in the project timeline that typically marks the completion of a deliverable or phase but doesn't represent a deliverable itself."
+  },
+  {
+    "question": "What is the purpose of a Gantt chart in project management?",
+    "options": [
+      "To display the project budget graphically",
+      "To illustrate the project schedule, showing task dependencies and duration",
+      "To show the organizational structure of the project team",
+      "To track project risks and issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Gantt chart is a bar chart that illustrates a project schedule, showing the start and finish dates of project elements such as tasks, resources, milestones, and dependencies. It helps visualize task sequences, duration, and overlaps."
+  },
+  {
+    "question": "What is the main purpose of a stakeholder analysis?",
+    "options": [
+      "To determine who will fund the project",
+      "To identify and understand the interests, influence, and impact of people affected by the project",
+      "To decide which stakeholders to exclude from project communications",
+      "To assign blame for project failures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stakeholder analysis is the process of identifying and analyzing stakeholders, their interests, influence, and potential impact on the project. This helps in developing appropriate management strategies to engage stakeholders effectively throughout the project."
+  },
+  {
+    "question": "What is the purpose of a sprint retrospective in Scrum?",
+    "options": [
+      "To plan the work for the next sprint",
+      "To demonstrate completed work to stakeholders",
+      "To evaluate what went well, what didn't, and how to improve",
+      "To assign tasks to team members"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A sprint retrospective is a meeting held at the end of a sprint in Scrum where the team reflects on their process, discussing what went well, what could be improved, and what actions they will take to improve their process in the next sprint. It's focused on continuous improvement of the team's practices."
+  },
+  {
+    "question": "What is a user story in Agile project management?",
+    "options": [
+      "A fictional account of how users might interact with the system",
+      "A short, simple description of a feature told from the perspective of the person who desires the new capability",
+      "A detailed technical specification of a system feature",
+      "A narrative of a user's historical experience with similar products"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A user story is a short, simple description of a feature told from the perspective of the person who desires the capability, typically following a template like: 'As a [type of user], I want [some goal] so that [some reason].' It's used to capture requirements in Agile methodologies."
+  },
+  {
+    "question": "What is a project management office (PMO)?",
+    "options": [
+      "The physical location where the project team works",
+      "A temporary committee formed to oversee a specific project",
+      "An organizational structure that standardizes project-related governance processes and facilitates sharing of resources, methodologies, tools, and techniques",
+      "The executive leadership team that approves project funding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Project Management Office (PMO) is an organizational structure that standardizes project-related governance processes and facilitates the sharing of resources, methodologies, tools, and techniques. It may provide support functions for projects or directly manage projects, depending on its type."
+  },
+  {
+    "question": "What is earned value management (EVM)?",
+    "options": [
+      "A method for calculating team member bonuses based on performance",
+      "A project management technique for measuring project performance and progress objectively",
+      "A financial accounting method specific to IT projects",
+      "A technique for evaluating vendor proposals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Earned Value Management (EVM) is a project management technique that objectively measures project performance against the planned scope, schedule, and cost. It provides metrics that help forecast future performance based on past trends."
+  },
+  {
+    "question": "What is a project baseline?",
+    "options": [
+      "The minimum acceptable level of project quality",
+      "The approved version of the project scope, schedule, and budget",
+      "The starting point for the project before any work begins",
+      "The benchmark against which competing projects are measured"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project baseline is the approved version of the project scope, schedule, and budget that is used as a reference point to measure and monitor project progress. Changes to the baseline should be formally controlled through the change management process."
+  },
+  {
+    "question": "What is the purpose of a RACI matrix in project management?",
+    "options": [
+      "To measure the project's return on investment",
+      "To assess project risks",
+      "To define roles and responsibilities for project tasks",
+      "To schedule project resources"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A RACI matrix (Responsible, Accountable, Consulted, Informed) is a responsibility assignment chart that clarifies roles and responsibilities for each task, deliverable, or decision in a project, ensuring that everything has a clear owner and all stakeholders understand their involvement."
+  },
+  {
+    "question": "What is the difference between a program and a project?",
+    "options": [
+      "Programs are for software development while projects are for hardware development",
+      "Programs are larger and have more people than projects",
+      "A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually",
+      "Projects have specific end dates while programs are ongoing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A program is a group of related projects, subsidiary programs, and program activities managed in a coordinated manner to obtain benefits not available from managing them individually. While projects deliver outputs, programs deliver outcomes or benefits."
+  },
+  {
+    "question": "What is project scope creep?",
+    "options": [
+      "Gradual increase in project costs over time",
+      "Uncontrolled expansion of project requirements or deliverables",
+      "Slow progress on project tasks",
+      "Decline in team morale as the project progresses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scope creep refers to the uncontrolled expansion of project scope without adjustments to time, cost, or resources. It occurs when changes are implemented without going through the formal change control process, often leading to cost overruns and schedule delays."
+  },
+  {
+    "question": "What is a project management information system (PMIS)?",
+    "options": [
+      "A software tool that automatically manages projects without human intervention",
+      "A system used to provide information about a project to government regulators",
+      "A standardized set of tools and techniques for organizing, planning, and controlling projects",
+      "A database containing lessons learned from past projects"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Project Management Information System (PMIS) is a standardized set of automated tools and techniques used for gathering, integrating, and disseminating the outputs of project management processes. It includes software tools, documentation, and systems that help plan, execute, and control projects."
+  },
+  {
+    "question": "What is the purpose of a risk register in project management?",
+    "options": [
+      "To document all potential project risks, their assessment, and response strategies",
+      "To record project team members' risk tolerance levels",
+      "To legally register the project with risk management authorities",
+      "To track financial risks exclusively"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A risk register is a document used to identify, assess, and manage risks throughout the project lifecycle. It typically includes information about each identified risk, its assessment (probability and impact), response strategies, owners, and status, serving as a central repository for risk management."
+  },
+  {
+    "question": "What is resource leveling in project management?",
+    "options": [
+      "Ensuring all team members have equal workloads",
+      "A technique to resolve resource conflicts by adjusting the project schedule",
+      "Assigning resources based on their experience level",
+      "Allocating the same number of resources to each project phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Resource leveling is a technique in which start and finish dates are adjusted based on resource constraints with the goal of balancing demand for resources with the available supply. It's used to address over-allocation or uneven resource usage."
+  },
+  {
+    "question": "What is the difference between qualitative and quantitative risk analysis?",
+    "options": [
+      "Qualitative analysis uses words while quantitative analysis uses numbers",
+      "Qualitative analysis prioritizes risks by assessing probability and impact, while quantitative analysis numerically analyzes the combined effect of risks",
+      "Qualitative analysis is performed by management while quantitative is done by analysts",
+      "Qualitative analysis is subjective while quantitative analysis is objective"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Qualitative risk analysis assesses the priority of identified risks using their probability of occurrence and impact, often using a probability-impact matrix. Quantitative risk analysis numerically analyzes the combined effect of identified risks on project objectives, typically using techniques like Monte Carlo simulation."
+  },
+  {
+    "question": "What is the purpose of a project kickoff meeting?",
+    "options": [
+      "To celebrate the start of the project with a social event",
+      "To formally introduce team members, clarify project goals, and establish expectations",
+      "To assign blame for delays before the project starts",
+      "To distribute project equipment to team members"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project kickoff meeting is the first meeting with the project team and often with the client, where the project goals, scope, timeline, roles, and expectations are discussed and clarified. It helps establish a common understanding of the project and builds team alignment."
+  },
+  {
+    "question": "What is a sprint in Scrum methodology?",
+    "options": [
+      "A quick burst of activity at the end of a project to meet deadlines",
+      "A time-boxed iteration of typically 2-4 weeks during which a potentially releasable product increment is created",
+      "A fast-paced meeting to resolve project issues",
+      "An emergency response to project crises"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Scrum, a sprint is a time-boxed iteration, typically 2-4 weeks long, during which the development team works to create a potentially releasable product increment. Each sprint has a goal, a plan, and results in a product increment that meets the 'Definition of Done'."
+  },
+  {
+    "question": "What is the purpose of a project closure report?",
+    "options": [
+      "To formally shut down project operations",
+      "To document the project's performance, lessons learned, and final deliverables",
+      "To assign blame for project failures",
+      "To calculate the final project budget"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project closure report formally closes a project, documenting its overall performance against original objectives, the final status of deliverables, lessons learned, outstanding issues, and recommendations for future projects. It serves as historical information for future reference."
+  },
+  {
+    "question": "What is the role of a project sponsor?",
+    "options": [
+      "To provide financial backing for the project",
+      "To supervise the project manager's day-to-day work",
+      "To provide executive support, resources, and advocacy for the project",
+      "To market the project to external stakeholders"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A project sponsor is typically a senior executive who provides executive support, resources, and advocacy for the project. They champion the project within the organization, remove obstacles, make critical decisions, and ensure the project aligns with organizational goals."
+  },
+  {
+    "question": "What is a product backlog in Agile project management?",
+    "options": [
+      "A list of defects that need to be fixed",
+      "An ordered list of all features, functions, requirements, and fixes that represent everything that might be needed in the product",
+      "A log of all previous product versions",
+      "A record of customer complaints about the product"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Agile project management, particularly Scrum, the product backlog is an ordered list of everything that might be needed in the product. It's the single source of requirements and features to be implemented, continuously refined and prioritized by the Product Owner."
+  },
+  {
+    "question": "What is the purpose of a lessons learned register in project management?",
+    "options": [
+      "To document educational resources for the project team",
+      "To record knowledge gained during the project that can be used to improve future projects",
+      "To track team members' learning objectives",
+      "To register for formal project management training"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A lessons learned register documents the knowledge gained during a project, including what went well, what challenges were encountered, and how they were addressed. This information helps improve organizational process assets and future project performance by avoiding past mistakes and replicating successes."
+  },
+  {
+    "question": "What is the difference between project cost and project budget?",
+    "options": [
+      "Cost is estimated while budget is actual",
+      "Cost refers to the individual expenses, while budget is the overall approved funding for the project",
+      "Cost is for resources, budget is for management fees",
+      "They are the same thing with different names"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Project cost refers to the individual expenses incurred to complete project activities, such as labor, materials, and equipment. Project budget is the approved estimated cost for the entire project, including contingency reserves, which serves as a baseline for measuring performance."
+  },
+  {
+    "question": "What is the purpose of a project status report?",
+    "options": [
+      "To report on the employment status of project team members",
+      "To communicate the current state of the project to stakeholders, including progress, issues, risks, and forecasts",
+      "To assess the status of the organization sponsoring the project",
+      "To report on the legal status of project contracts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project status report is a regular communication that provides stakeholders with information about the current state of the project. It typically includes progress against the schedule and budget, completed and upcoming milestones, current issues and risks, and any changes to the project plan."
+  },
+  {
+    "question": "What is a project portfolio in project management?",
+    "options": [
+      "A collection of a project manager's past projects used for job applications",
+      "A physical folder containing project documentation",
+      "A collection of projects or programs grouped to facilitate effective management to meet strategic business objectives",
+      "A visual display of project artifacts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A project portfolio is a collection of projects, programs, and operations managed as a group to achieve strategic business objectives. Portfolio management ensures that organizations undertake the right projects at the right time, balancing risks and aligning with overall strategy."
+  },
+  {
+    "question": "What is the purpose of a communications management plan?",
+    "options": [
+      "To set up communication technologies for the project team",
+      "To document how project communications will be planned, structured, implemented, and monitored",
+      "To manage media communications about the project",
+      "To establish rules for team members' personal communications"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A communications management plan documents how project communications will be planned, structured, implemented, and monitored. It outlines what information will be communicated, who will communicate it, when and how it will be communicated, and to whom, ensuring effective information exchange among stakeholders."
+  },
+  {
+    "question": "What is a change control board (CCB) in project management?",
+    "options": [
+      "A board that displays all project changes visually",
+      "A group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project",
+      "A team that implements changes to the project schedule",
+      "A physical control panel for making changes to project systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Change Control Board (CCB) is a formally constituted group of stakeholders responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project, and for recording and communicating these decisions. It ensures changes are managed in an integrated manner."
+  },
+  {
+    "question": "What is a project life cycle?",
+    "options": [
+      "The expected lifespan of the project deliverables",
+      "The series of phases that a project passes through from its initiation to its closure",
+      "The recurring schedule of project activities each year",
+      "The career path of a project manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project life cycle is the series of phases that a project passes through from its start to its completion. While details vary by industry and methodology, most project life cycles include phases for initiation, planning, execution, monitoring and controlling, and closure."
+  },
+  {
+    "question": "What is the purpose of a feasibility study in project management?",
+    "options": [
+      "To test whether project team members can work together effectively",
+      "To assess the viability of a project idea and determine if it should proceed",
+      "To determine if the project can be completed within legal requirements",
+      "To establish which project management methodology is most feasible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A feasibility study is an assessment of the practicality and viability of a proposed project. It examines technical, economic, legal, operational, and scheduling feasibility to determine if the project is worth pursuing and can be completed successfully."
+  },
+  {
+    "question": "What is a project management methodology?",
+    "options": [
+      "The specific software used to manage a project",
+      "A system of principles, practices, and procedures applied to a specific branch of knowledge",
+      "The reporting structure within a project team",
+      "The method of calculating project costs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project management methodology is a system of principles, practices, procedures, and rules used by those who work in a discipline. Examples include Waterfall, Agile (with frameworks like Scrum or Kanban), PRINCE2, and Lean. Organizations often tailor methodologies to their specific needs."
+  },
+  {
+    "question": "What is a project schedule?",
+    "options": [
+      "A calendar showing when team members are available",
+      "A document that identifies project activities, their durations, resource requirements, and planned start and finish dates",
+      "A list of scheduled project meetings",
+      "A timeline of project funding disbursements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project schedule is a document that identifies all the project activities, their durations, required resources, and planned start and finish dates. It serves as the primary tool for communicating what work needs to be performed, which resources will perform it, and the timeframes for completion."
+  },
+  {
+    "question": "What is float (or slack) in project scheduling?",
+    "options": [
+      "The buffer time added to estimates to account for uncertainty",
+      "The amount of time a task can be delayed without delaying the project completion",
+      "The time spent waiting for client approvals",
+      "The budget contingency for scheduling changes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Float (or slack) is the amount of time an activity can be delayed without causing a delay to subsequent activities or the project completion date. Tasks on the critical path have zero float, while non-critical tasks have positive float."
+  },
+  {
+    "question": "What is the difference between schedule variance (SV) and cost variance (CV) in earned value management?",
+    "options": [
+      "SV measures time deviations while CV measures budget deviations",
+      "SV compares planned vs. actual schedule, while CV compares planned vs. actual cost",
+      "SV indicates if the project is ahead or behind schedule, while CV indicates if the project is under or over budget",
+      "SV is calculated in days, while CV is calculated in currency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Earned Value Management, Schedule Variance (SV) indicates whether the project is ahead or behind schedule by comparing Earned Value (EV) to Planned Value (PV): SV = EV - PV. Cost Variance (CV) indicates whether the project is under or over budget by comparing Earned Value (EV) to Actual Cost (AC): CV = EV - AC."
+  },
+  {
+    "question": "What is the purpose of a stakeholder register?",
+    "options": [
+      "To record attendance at stakeholder meetings",
+      "To document who legally registered as interested in the project",
+      "To identify and document relevant information about stakeholders, including interests, involvement, and impact",
+      "To track stakeholder contributions to the project budget"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A stakeholder register is a project document containing information about identified stakeholders, including their identification information, assessment information (such as their requirements, expectations, influence, and impact), and classification (such as support, neutral, or resistant)."
+  },
+  {
+    "question": "What is scope verification in project management?",
+    "options": [
+      "Checking if the project scope matches the budget",
+      "The process of formalizing acceptance of the completed project deliverables",
+      "Verifying that the scope statement is approved by all stakeholders",
+      "Confirming that the project team understands the scope"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scope verification (or validate scope) is the process of formalizing acceptance of the completed project deliverables. It includes reviewing deliverables with the customer or sponsor to ensure they are completed satisfactorily and obtaining formal acceptance, providing objective confirmation that deliverables meet requirements."
+  },
+  {
+    "question": "What is the purpose of a quality management plan?",
+    "options": [
+      "To ensure the project team includes quality assurance professionals",
+      "To describe how the project team will implement the quality policy, including processes for quality planning, assurance, and control",
+      "To document the quality standards required by regulatory agencies",
+      "To establish minimum quality levels for project deliverables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A quality management plan describes how the project team will implement the organization's quality policy. It defines the quality requirements for the project, how quality will be assured through processes and metrics, how it will be controlled and measured, and who is responsible for quality-related activities."
+  },
+  {
+    "question": "What is the purpose of a project risk management plan?",
+    "options": [
+      "To eliminate all risks from the project",
+      "To describe how risk management activities will be structured and performed",
+      "To list all potential project risks",
+      "To assign blame if risks materialize"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A risk management plan describes how risk management activities will be structured and performed on the project. It outlines the methodology, roles and responsibilities, timing, thresholds, reporting formats, and how risks will be identified, analyzed, responded to, and monitored throughout the project."
+  },
+  {
+    "question": "What is a deliverable in project management?",
+    "options": [
+      "Any task that has been delegated to a team member",
+      "A tangible or intangible product, service, or result that must be produced to complete a project or part of a project",
+      "The final product of the entire project",
+      "A delivery mechanism for project communications"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deliverable is a unique and verifiable product, result, or capability to perform a service that must be produced to complete a process, phase, or project. Deliverables are typically tangible components approved by the project stakeholders."
+  },
+  {
+    "question": "What is the difference between lead time and lag time in project scheduling?",
+    "options": [
+      "Lead time is for critical tasks, lag time is for non-critical tasks",
+      "Lead time accelerates the successor activity, lag time delays the successor activity",
+      "Lead time is measured in days, lag time is measured in hours",
+      "Lead time applies to dependencies, lag time applies to milestones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In project scheduling, lead time is an acceleration or overlap of a successor activity (allows a successor activity to start before its predecessor finishes), represented as a negative number. Lag time is a delay imposed on a successor activity, represented as a positive number."
+  }
+]

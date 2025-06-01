@@ -1,0 +1,475 @@
+[
+  {
+    "question": "Which architectural style is characterized by client-server communication over HTTP, statelessness, and uniform interfaces?",
+    "options": [
+      "SOAP",
+      "REST",
+      "GraphQL",
+      "CORBA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "REST (Representational State Transfer) is an architectural style characterized by stateless client-server communication over HTTP, with resources accessed via uniform interfaces (URLs)."
+  },
+  {
+    "question": "What is the main purpose of a load balancer in system architecture?",
+    "options": [
+      "To increase storage capacity",
+      "To distribute network traffic across multiple servers",
+      "To encrypt data transmissions",
+      "To compress data for faster transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, thereby improving reliability and availability."
+  },
+  {
+    "question": "Which of the following is NOT a common architectural pattern?",
+    "options": [
+      "Microservices",
+      "Model-View-Controller (MVC)",
+      "Event-Driven Architecture",
+      "Single-Relay Transmission (SRT)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Single-Relay Transmission (SRT) is not a common architectural pattern. The others—Microservices, MVC, and Event-Driven Architecture—are well-established patterns in system design."
+  },
+  {
+    "question": "What is a key characteristic of microservices architecture?",
+    "options": [
+      "All services share a single database",
+      "Services are deployed as a single monolithic unit",
+      "Each service is independently deployable and loosely coupled",
+      "Services must all be written in the same programming language"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A key characteristic of microservices architecture is that services are independently deployable and loosely coupled, allowing teams to develop, deploy, and scale individual services independently."
+  },
+  {
+    "question": "What is the role of an API Gateway in a microservices architecture?",
+    "options": [
+      "To manage database connections",
+      "To serve as a single entry point for client requests, routing them to appropriate services",
+      "To provide backup and recovery for all services",
+      "To monitor system performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An API Gateway serves as a single entry point for all client requests, routing them to the appropriate microservices, handling cross-cutting concerns like authentication, and potentially aggregating responses."
+  },
+  {
+    "question": "Which of the following best describes scalability in system architecture?",
+    "options": [
+      "The ability of a system to handle increasing amounts of work by adding resources",
+      "The ability of a system to recover quickly from failures",
+      "The ability of a system to secure data transmissions",
+      "The ability of a system to process real-time data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scalability refers to a system's ability to handle growing amounts of work, or its potential to accommodate growth, typically by adding resources either vertically (more powerful machines) or horizontally (more machines)."
+  },
+  {
+    "question": "What is the difference between horizontal scaling and vertical scaling?",
+    "options": [
+      "Horizontal scaling increases hardware capacity, vertical scaling adds more machines",
+      "Horizontal scaling adds more machines, vertical scaling increases hardware capacity",
+      "Horizontal scaling is for databases, vertical scaling is for web servers",
+      "Horizontal scaling is for cloud systems, vertical scaling is for on-premises systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horizontal scaling (scaling out) adds more machines to a system, distributing the load. Vertical scaling (scaling up) adds more power (CPU, RAM) to an existing machine. Both approaches help handle increasing load."
+  },
+  {
+    "question": "What is a container in system architecture?",
+    "options": [
+      "A physical storage unit for servers",
+      "A standardized unit of software that packages code and dependencies together",
+      "A network protocol for secure data transmission",
+      "A user interface component"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In system architecture, a container is a standardized unit of software that packages code and its dependencies together, ensuring the application runs quickly and reliably in any computing environment."
+  },
+  {
+    "question": "Which of the following is a benefit of serverless architecture?",
+    "options": [
+      "Complete control over the server environment",
+      "Reduced operational costs as you only pay for actual compute time used",
+      "Simpler debugging and testing processes",
+      "Better performance for long-running processes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Serverless architectures allow developers to build and run applications without thinking about servers. A key benefit is reduced costs, as you only pay for the actual compute time used, not for idle server time."
+  },
+  {
+    "question": "What is a monolithic architecture?",
+    "options": [
+      "A system where all components are physically separated",
+      "A single, unified application where all components are interconnected and run as a single service",
+      "A system that only runs on a single server",
+      "A system that only supports a single user at a time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A monolithic architecture is a traditional software development approach where an application is built as a single, unified unit with all components interconnected and running as a single service, as opposed to microservices where components are separated."
+  },
+  {
+    "question": "What is the purpose of a Content Delivery Network (CDN)?",
+    "options": [
+      "To create dynamic content for websites",
+      "To reduce latency by serving content from locations closer to users",
+      "To encrypt web traffic",
+      "To compress website code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Content Delivery Network (CDN) is a geographically distributed network of servers that delivers web content to users based on their geographic location, reducing latency by serving content from locations closer to the end user."
+  },
+  {
+    "question": "What is high availability in system architecture?",
+    "options": [
+      "A system that is accessible only to high-level administrators",
+      "A system that can operate continuously without failure for a long time",
+      "A system that is positioned at a high physical location",
+      "A system with high-speed network connections"
+    ],
+    "correctAnswer": 1,
+    "explanation": "High availability refers to a system's ability to operate continuously without failure for a long time. It's typically measured as a percentage of uptime (e.g., 99.999% or 'five nines') and is achieved through redundancy and eliminating single points of failure."
+  },
+  {
+    "question": "What is the main advantage of using a message queue in a distributed system?",
+    "options": [
+      "It improves data encryption",
+      "It decouples different parts of the system, allowing them to operate independently",
+      "It reduces the total amount of data stored",
+      "It eliminates the need for network communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Message queues in distributed systems allow different components to communicate asynchronously, decoupling producers from consumers. This improves system resilience, scalability, and allows components to operate independently at their own pace."
+  },
+  {
+    "question": "What is a service mesh in microservices architecture?",
+    "options": [
+      "A physical network of servers",
+      "A dedicated infrastructure layer for handling service-to-service communication",
+      "A type of database optimized for microservices",
+      "A programming language for microservices development"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A service mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices, handling network functions like service discovery, load balancing, encryption, and failure recovery."
+  },
+  {
+    "question": "What is the CAP theorem in distributed systems?",
+    "options": [
+      "A theorem stating that you can only have two of three properties: Consistency, Availability, and Partition tolerance",
+      "A method for optimizing CPU, Application, and Process in systems",
+      "A security framework for Confidentiality, Authentication, and Protection",
+      "A design principle for Caching, APIs, and Protocols"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CAP theorem states that a distributed data store cannot simultaneously provide more than two out of three guarantees: Consistency (all nodes see the same data at the same time), Availability (every request receives a response), and Partition tolerance (the system continues to operate despite network partitions)."
+  },
+  {
+    "question": "Which of the following is NOT a common component in a three-tier architecture?",
+    "options": [
+      "Presentation tier",
+      "Logic tier",
+      "Data tier",
+      "Integration tier"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A traditional three-tier architecture consists of the Presentation tier (user interface), Logic tier (business logic), and Data tier (database). 'Integration tier' is not a standard component of this model."
+  },
+  {
+    "question": "What is the purpose of a reverse proxy in system architecture?",
+    "options": [
+      "To allow internal clients to access external resources",
+      "To route client requests to the appropriate back-end server and return the server's response to the client",
+      "To optimize database queries",
+      "To compress data for storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A reverse proxy receives client requests, forwards them to the appropriate back-end server, and returns the server's response to the client. It can provide benefits like load balancing, caching, and security."
+  },
+  {
+    "question": "What is the primary purpose of an event-driven architecture?",
+    "options": [
+      "To minimize system resource usage",
+      "To simplify database design",
+      "To produce and consume events for loosely coupled, scalable systems",
+      "To improve user interface responsiveness"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Event-driven architecture is a design pattern built around the production, detection, consumption of, and reaction to events. It enables loosely coupled systems that can be more resilient and scalable."
+  },
+  {
+    "question": "Which pattern is used to handle temporary failures in distributed systems by retrying operations?",
+    "options": [
+      "Circuit Breaker pattern",
+      "Retry pattern",
+      "Bulkhead pattern",
+      "Saga pattern"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Retry pattern enables an application to handle transient failures by transparently retrying a failed operation, with the expectation that the cause of the failure is transient and likely to be resolved on a retry."
+  },
+  {
+    "question": "What is the primary purpose of a data cache in system architecture?",
+    "options": [
+      "To permanently store critical data",
+      "To improve performance by storing frequently accessed data in memory",
+      "To encrypt sensitive information",
+      "To compress data for efficient storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data cache improves system performance by temporarily storing copies of frequently accessed data in a high-speed storage layer (usually memory), reducing the need to fetch the data from its original, slower storage location."
+  },
+  {
+    "question": "What is the Circuit Breaker pattern in system architecture?",
+    "options": [
+      "A pattern to prevent electrical surges in data centers",
+      "A pattern that prevents a failing service from consuming all system resources by stopping operations when failures exceed a threshold",
+      "A pattern for organizing network cables",
+      "A pattern for designing user interfaces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Circuit Breaker pattern prevents an application from repeatedly trying to execute an operation that's likely to fail. It works like an electrical circuit breaker, stopping the flow of requests when failures exceed a threshold and allowing the failing service time to recover."
+  },
+  {
+    "question": "What is a Saga pattern in distributed systems?",
+    "options": [
+      "A pattern for storytelling in documentation",
+      "A pattern for managing long-lived transactions by breaking them into a sequence of smaller transactions",
+      "A pattern for organizing code repositories",
+      "A pattern for designing system dashboards"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Saga pattern is a way to manage long-lived transactions in distributed systems by breaking them into a sequence of smaller, local transactions, each with a corresponding compensating transaction for rollback if something fails."
+  },
+  {
+    "question": "What is the purpose of a service registry in microservices architecture?",
+    "options": [
+      "To maintain legal registration of software services",
+      "To store credentials for service authentication",
+      "To maintain a database of available service instances to enable service discovery",
+      "To register copyrights for service implementations"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A service registry in microservices architecture maintains a database of available service instances, their locations, and metadata. It enables service discovery, allowing services to find and communicate with each other dynamically."
+  },
+  {
+    "question": "What does CQRS stand for in system architecture?",
+    "options": [
+      "Central Query Response System",
+      "Command Query Responsibility Segregation",
+      "Consistent Query and Record Storage",
+      "Cross-Query Resource Sharing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CQRS (Command Query Responsibility Segregation) is an architectural pattern that separates read and write operations to different models. Commands change state, queries return state, and they can use different data models and even different databases."
+  },
+  {
+    "question": "Which of the following is a characteristic of a good system architecture?",
+    "options": [
+      "Maximizing dependencies between components",
+      "Prioritizing complexity over simplicity",
+      "Being resistant to change and extension",
+      "Separation of concerns between components"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Separation of concerns is a key characteristic of good system architecture. It involves dividing a system into distinct features with minimal overlap, making it more maintainable, extensible, and easier to understand."
+  },
+  {
+    "question": "What is the Bulkhead pattern in system architecture?",
+    "options": [
+      "A pattern for designing physical server rooms",
+      "A pattern that isolates elements of an application into pools so that if one fails, the others continue to function",
+      "A pattern for organizing network cables",
+      "A pattern for waterproofing data centers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Bulkhead pattern isolates elements of an application into pools so that if one fails, the others continue to function. Named after ship compartments, it improves resilience by preventing cascading failures across a system."
+  },
+  {
+    "question": "What is the primary benefit of a hexagonal architecture (ports and adapters)?",
+    "options": [
+      "It makes systems faster",
+      "It reduces storage requirements",
+      "It isolates the core business logic from external concerns",
+      "It eliminates the need for databases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hexagonal architecture (also called ports and adapters) isolates the core business logic from external concerns like databases and UIs. This makes the system more maintainable, testable, and adaptable to changing requirements or technologies."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous communication in distributed systems?",
+    "options": [
+      "Synchronous is faster, asynchronous is more reliable",
+      "Synchronous requires the sender to wait for a response, asynchronous allows the sender to continue processing",
+      "Synchronous works over the internet, asynchronous only works on local networks",
+      "Synchronous is more secure than asynchronous"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In synchronous communication, the sender waits for the receiver's response before continuing, creating a temporal dependency. In asynchronous communication, the sender can continue processing after sending a message, without waiting for a response."
+  },
+  {
+    "question": "What is a sidecar pattern in microservices architecture?",
+    "options": [
+      "A design for physical server racks",
+      "A deployment pattern where auxiliary components are attached to a main service as a separate container",
+      "A network topology with side channels",
+      "A method for physical server transportation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The sidecar pattern deploys auxiliary components (like logging, monitoring, or security) alongside a main service as separate containers. This extends the main service's functionality without modifying it, allowing for reusable components across different services."
+  },
+  {
+    "question": "What is idempotency in distributed systems?",
+    "options": [
+      "The property that operations can be applied multiple times without changing the result beyond the initial application",
+      "The property that ensures all operations are fast",
+      "The property that guarantees 100% uptime",
+      "The property that all services use the same programming language"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Idempotency is the property where an operation can be applied multiple times without changing the result beyond the initial application. It's crucial in distributed systems to handle duplicate requests, retries, and failures safely."
+  },
+  {
+    "question": "What is a blue-green deployment?",
+    "options": [
+      "A deployment strategy using specific brand colors",
+      "A deployment strategy where two identical environments are maintained, with one active and one idle",
+      "A deployment requiring special hardware with blue and green indicators",
+      "A deployment method for underwater data centers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Blue-green deployment is a strategy where two identical environments (blue and green) are maintained. One serves production traffic (blue) while the other (green) is updated. After testing, traffic is switched to green, making it the new production, minimizing downtime and risk."
+  },
+  {
+    "question": "What is eventual consistency in distributed systems?",
+    "options": [
+      "A property where system performance eventually becomes consistent",
+      "A property where data becomes consistent over time, but might be temporarily inconsistent",
+      "A property where all servers eventually have identical hardware",
+      "A property where network speeds eventually match"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eventual consistency is a consistency model that guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value. It allows for temporary inconsistencies to improve availability and performance."
+  },
+  {
+    "question": "What is a canary deployment?",
+    "options": [
+      "A deployment method requiring bird-shaped servers",
+      "A deployment method that gradually rolls out changes to a small subset of users before full deployment",
+      "A deployment method specifically for mining operations",
+      "A deployment method using yellow-colored hardware"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A canary deployment gradually rolls out changes to a small subset of users before full deployment. This helps to test new features and catch potential issues early, minimizing the impact of problems. The name comes from the coal mining practice of using canaries to detect toxic gases."
+  },
+  {
+    "question": "What is Domain-Driven Design (DDD) in system architecture?",
+    "options": [
+      "A design approach focused on making systems visually appealing",
+      "A design approach focused on creating good domain names",
+      "A design approach that emphasizes understanding the business domain and using a model-driven approach",
+      "A design approach exclusive to web domains"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Domain-Driven Design (DDD) is an approach to software development that emphasizes understanding the business domain, using a model-driven approach, and maintaining a ubiquitous language between developers and domain experts to create software that accurately reflects the business needs."
+  },
+  {
+    "question": "What is the Strangler Pattern (or Strangler Fig Pattern) in system architecture?",
+    "options": [
+      "A pattern for eliminating competing systems",
+      "A pattern for gradual migration by incrementally replacing specific pieces of functionality",
+      "A pattern for restricting system resources",
+      "A pattern for removing unused code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Strangler Pattern is an approach to incrementally transform a legacy system by gradually replacing specific pieces of functionality with new applications and services. The old system is eventually 'strangled' and replaced completely, reducing the risk of a complete rewrite."
+  },
+  {
+    "question": "What is infrastructure as code (IaC)?",
+    "options": [
+      "Writing code that runs on infrastructure",
+      "Managing and provisioning infrastructure through code rather than manual processes",
+      "Code that describes physical infrastructure like buildings",
+      "A programming language for infrastructure administrators"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Infrastructure as Code (IaC) is the practice of managing and provisioning computing infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. It enables consistent, repeatable environments."
+  },
+  {
+    "question": "What is a bounded context in Domain-Driven Design?",
+    "options": [
+      "A physical boundary around servers",
+      "A logical boundary within which a particular domain model applies",
+      "A restriction on the amount of context provided in logs",
+      "A limitation on the size of a codebase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Domain-Driven Design, a bounded context is a logical boundary within which a particular domain model applies. It contains the rules, behaviors, and terms that are consistent within that context, enabling teams to work independently with clear interfaces between different contexts."
+  },
+  {
+    "question": "What is the purpose of the Ambassador pattern in distributed systems?",
+    "options": [
+      "To represent the system to external stakeholders",
+      "To provide diplomatic solutions to system conflicts",
+      "To create a helper service that sends network requests on behalf of a consumer service",
+      "To translate between different human languages in the system"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Ambassador pattern creates a helper service that sends network requests on behalf of a consumer service. It's useful for implementing common client connectivity tasks such as monitoring, logging, routing, and security in a language-agnostic way."
+  },
+  {
+    "question": "What is a data lake in system architecture?",
+    "options": [
+      "A water cooling system for data centers",
+      "A centralized repository that stores all structured and unstructured data at any scale",
+      "A backup system for databases",
+      "A visualization tool for data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale. Unlike a data warehouse, which stores data in a structured format, a data lake stores data in its raw, native format until it's needed."
+  },
+  {
+    "question": "What is Zero Trust Architecture?",
+    "options": [
+      "A system architecture that requires no authentication",
+      "A security concept based on the principle of 'never trust, always verify'",
+      "An architectural approach that eliminates all security measures",
+      "A design that uses zero redundancy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Zero Trust Architecture is a security concept based on the principle of 'never trust, always verify.' It assumes no user or system is trusted by default, whether inside or outside the network perimeter, requiring strict identity verification and least privilege access."
+  },
+  {
+    "question": "What is a polyglot persistence approach in system architecture?",
+    "options": [
+      "Using multiple human languages in system documentation",
+      "Using different programming languages in the same application",
+      "Using different database types for different kinds of data in a single application",
+      "Supporting multiple user interface languages"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Polyglot persistence is an approach where an application uses different types of database technologies (relational, document, graph, key-value, etc.) for different kinds of data. This allows choosing the most appropriate data storage technology for each specific data storage need."
+  },
+  {
+    "question": "What is the Façade pattern in software architecture?",
+    "options": [
+      "A pattern for designing user interfaces",
+      "A pattern that provides a simplified interface to a complex subsystem",
+      "A pattern for organizing physical servers",
+      "A pattern for decorating code with comments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Façade pattern provides a simplified interface to a complex subsystem of classes, making the subsystem easier to use. It doesn't add functionality but presents a higher-level interface that makes the subsystem more readable and reduces dependencies on it."
+  },
+  {
+    "question": "What is the purpose of an anti-corruption layer in system architecture?",
+    "options": [
+      "To prevent malware and viruses",
+      "To isolate a system from the legacy or external systems it integrates with",
+      "To prevent data corruption in storage",
+      "To protect against physical damage to servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An anti-corruption layer is a design pattern used to prevent a legacy or external system's model from 'corrupting' the model of the current system. It acts as a façade or adapter between different subsystems, translating between their different models."
+  }
+]

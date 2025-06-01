@@ -1,0 +1,475 @@
+[
+  {
+    "question": "Which of the following is NOT a type of database model?",
+    "options": [
+      "Relational",
+      "Document-oriented",
+      "Procedural",
+      "Graph"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Procedural is not a type of database model. Common database models include Relational (like MySQL), Document-oriented (like MongoDB), Graph (like Neo4j), and others such as Key-Value and Columnar."
+  },
+  {
+    "question": "What does SQL JOIN do?",
+    "options": [
+      "It deletes records from multiple tables",
+      "It combines rows from two or more tables based on a related column",
+      "It creates a backup of the database",
+      "It splits a table into multiple tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SQL JOIN combines rows from two or more tables based on a related column between them, allowing you to retrieve data from multiple tables in a single query."
+  },
+  {
+    "question": "What is the purpose of normalization in database design?",
+    "options": [
+      "To increase the speed of database queries",
+      "To encrypt sensitive data",
+      "To eliminate redundancy and ensure data integrity",
+      "To compress data to save storage space"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Normalization is the process of organizing data to minimize redundancy and dependency by dividing large tables into smaller tables and defining relationships between them. This helps ensure data integrity."
+  },
+  {
+    "question": "Which of the following best describes Big Data?",
+    "options": [
+      "Any dataset larger than 1 terabyte",
+      "Data that is too large, complex, or fast-changing to be processed by traditional methods",
+      "A specific database technology developed by Google",
+      "A type of database that only stores numerical data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Big Data refers to data sets that are too large or complex to be dealt with by traditional data-processing application software. It's characterized by the 'Three Vs': volume, velocity, and variety."
+  },
+  {
+    "question": "What is a data warehouse?",
+    "options": [
+      "A physical storage facility for computer hardware",
+      "A central repository of integrated data from multiple sources designed for query and analysis",
+      "A backup system for database recovery",
+      "A cloud-based file storage service"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data warehouse is a central repository of integrated data from one or more disparate sources. They store current and historical data and are designed to facilitate reporting and analysis."
+  },
+  {
+    "question": "Which of the following is a characteristic of NoSQL databases?",
+    "options": [
+      "They always use SQL for queries",
+      "They only store text data",
+      "They typically offer high scalability and flexibility with data models",
+      "They require strict schema definitions for all data"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NoSQL databases typically offer high scalability and flexibility with data models. Unlike traditional relational databases, they often don't require a fixed schema and can handle various data types and structures."
+  },
+  {
+    "question": "What is data mining?",
+    "options": [
+      "The process of extracting minerals from computer hardware",
+      "The process of discovering patterns and knowledge from large amounts of data",
+      "The process of backing up data to secure locations",
+      "The process of transferring data between different databases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data mining is the process of discovering patterns, correlations, anomalies, and useful information from large data sets using methods at the intersection of machine learning, statistics, and database systems."
+  },
+  {
+    "question": "Which of the following is NOT a common data visualization technique?",
+    "options": [
+      "Bar charts",
+      "Heat maps",
+      "Data compression",
+      "Scatter plots"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Data compression is not a visualization technique but a method to reduce data size. Bar charts, heat maps, and scatter plots are all common ways to visually represent data for analysis and presentation."
+  },
+  {
+    "question": "What is the difference between structured and unstructured data?",
+    "options": [
+      "Structured data is digital while unstructured data is analog",
+      "Structured data is stored in databases while unstructured data is always stored in files",
+      "Structured data follows a predefined data model while unstructured data doesn't have a predefined model",
+      "Structured data is always numerical while unstructured data is always textual"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Structured data is organized in a predefined way, typically in a tabular format with relationships between the different rows and columns. Unstructured data doesn't follow a predefined data model or isn't organized in a predefined manner, like text, images, or videos."
+  },
+  {
+    "question": "What does ETL stand for in data management?",
+    "options": [
+      "Evaluate, Test, Launch",
+      "Extend, Transform, Load",
+      "Extract, Transform, Load",
+      "Enterprise Table Library"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ETL stands for Extract, Transform, Load. It's a process used to collect data from various sources, transform it to fit operational needs, and load it into a destination database or data warehouse."
+  },
+  {
+    "question": "Which of the following is a primary key constraint property?",
+    "options": [
+      "It allows duplicate values",
+      "It cannot contain NULL values",
+      "It must be a text field",
+      "It requires at least two columns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A primary key constraint property is that it cannot contain NULL values. Other properties include uniqueness (no duplicate values) and that each table can have only one primary key constraint."
+  },
+  {
+    "question": "What does ACID stand for in database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Integration, Distribution",
+      "Authentication, Caching, Indexing, Durability",
+      "Asynchronous, Concurrent, Integrated, Distributed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are processed reliably, maintaining data integrity even in the event of errors or system failures."
+  },
+  {
+    "question": "What is the main purpose of an index in a database?",
+    "options": [
+      "To provide a summary of the database content",
+      "To speed up data retrieval operations",
+      "To encrypt sensitive data",
+      "To verify the integrity of data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main purpose of an index is to speed up data retrieval operations. Indexes work similar to a book's index, allowing the database to find data without scanning the entire table."
+  },
+  {
+    "question": "Which type of join returns rows when there is at least one match in both tables?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An INNER JOIN returns rows when there is at least one match in both tables. If there is no match, the rows are not included in the result set."
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "To sort the result set",
+      "To filter rows before grouping",
+      "To group rows that have the same values into summary rows",
+      "To join multiple tables together"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The GROUP BY clause in SQL is used to group rows that have the same values into summary rows, like 'find the number of customers in each country'. It is often used with aggregate functions like COUNT, MAX, MIN, SUM, and AVG."
+  },
+  {
+    "question": "What is data integrity?",
+    "options": [
+      "The security level of a database",
+      "The accuracy, consistency, and reliability of data throughout its lifecycle",
+      "The speed at which data can be retrieved",
+      "The amount of data that can be stored in a database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data integrity refers to the accuracy, consistency, and reliability of data throughout its lifecycle. It ensures that data remains unaltered in transit and is a critical aspect of database design, implementation, and usage."
+  },
+  {
+    "question": "What is the difference between a database and a data warehouse?",
+    "options": [
+      "Databases are smaller than data warehouses",
+      "Databases are used for data storage and transaction processing, while data warehouses are optimized for analysis and reporting",
+      "Databases can only store structured data, while data warehouses can store any type of data",
+      "Databases are cloud-based, while data warehouses are on-premises"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Databases are designed for operational systems and transaction processing (OLTP - Online Transaction Processing), focusing on fast query processing and maintaining data integrity. Data warehouses are optimized for analysis and reporting (OLAP - Online Analytical Processing), storing historical data from multiple sources."
+  },
+  {
+    "question": "What is a foreign key in a relational database?",
+    "options": [
+      "A key used to encrypt database contents",
+      "A key that must be unique across all databases in a system",
+      "A field that links to the primary key of another table",
+      "A backup key used when the primary key fails"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table. It establishes a link between the data in the two tables, maintaining referential integrity."
+  },
+  {
+    "question": "Which of the following is NOT a common data quality issue?",
+    "options": [
+      "Duplicate data",
+      "Incomplete data",
+      "Encrypted data",
+      "Inconsistent data formats"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Encrypted data is not inherently a data quality issue; in fact, encryption is often used to protect data. Common data quality issues include duplicate entries, incomplete records, and inconsistent formatting across records."
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter rows before they are grouped",
+      "To filter groups based on a specified condition",
+      "To specify the columns to be returned in the result set",
+      "To join tables together"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The HAVING clause in SQL is used to filter groups based on a specified condition. It is similar to the WHERE clause, but it is used to filter groups created by the GROUP BY clause rather than individual rows."
+  },
+  {
+    "question": "What is the difference between a clustered and non-clustered index?",
+    "options": [
+      "Clustered indexes are faster than non-clustered indexes",
+      "Clustered indexes determine the physical order of data in a table, while non-clustered indexes create a separate structure",
+      "Non-clustered indexes can only be created on primary keys",
+      "Clustered indexes require more storage space than non-clustered indexes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A clustered index determines the physical order of data in a table (there can only be one per table). A non-clustered index creates a separate structure that references the data but doesn't alter its physical order, allowing multiple non-clustered indexes per table."
+  },
+  {
+    "question": "What is a stored procedure in a database?",
+    "options": [
+      "A backup of database data",
+      "A prepared SQL code that can be saved and reused",
+      "A constraint that enforces data integrity",
+      "A technique to compress database tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A stored procedure is a prepared SQL code that can be saved and reused. It can accept parameters, perform operations, and return results, making database operations more efficient and secure."
+  },
+  {
+    "question": "What is database sharding?",
+    "options": [
+      "The process of deleting unnecessary data from a database",
+      "A technique to encrypt sensitive database information",
+      "Partitioning a database horizontally across multiple servers",
+      "Converting a relational database to a NoSQL database"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Database sharding is a type of horizontal partitioning that splits a database into smaller, more manageable pieces called shards, which are distributed across multiple servers. This improves performance and scalability for large databases."
+  },
+  {
+    "question": "Which of the following is a characteristic of a star schema in data warehousing?",
+    "options": [
+      "It has multiple fact tables connected to multiple dimension tables",
+      "It has a single fact table connected to multiple dimension tables",
+      "It doesn't use dimension tables at all",
+      "It is primarily used for transactional databases rather than data warehouses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A star schema has a single central fact table connected to multiple dimension tables, resembling a star pattern. This design optimizes query performance for analytical operations in data warehouses."
+  },
+  {
+    "question": "What is the purpose of a database trigger?",
+    "options": [
+      "To automatically execute a procedure when a specified event occurs",
+      "To speed up database queries",
+      "To compress database tables",
+      "To connect to external data sources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A database trigger is a stored procedure that automatically executes when a specified event (like INSERT, UPDATE, or DELETE) occurs on a particular table or view, allowing for automated responses to database changes."
+  },
+  {
+    "question": "What is the CAP theorem in distributed database systems?",
+    "options": [
+      "Consistency, Availability, Performance",
+      "Consistency, Atomicity, Partition Tolerance",
+      "Consistency, Availability, Partition Tolerance",
+      "Concurrency, Availability, Performance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The CAP theorem states that a distributed database system can only guarantee two of the following three properties simultaneously: Consistency (all nodes see the same data at the same time), Availability (every request receives a response), and Partition Tolerance (the system continues to operate despite network partitions)."
+  },
+  {
+    "question": "What is a database view?",
+    "options": [
+      "A graphical representation of database tables",
+      "A virtual table based on the result of a SQL statement",
+      "A backup of a database table",
+      "A tool to visualize database performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A database view is a virtual table based on the result-set of a SQL statement. It contains rows and columns, just like a real table, but doesn't store the data itself. Views can simplify complex queries and provide an additional security layer."
+  },
+  {
+    "question": "What is the difference between DELETE and TRUNCATE commands in SQL?",
+    "options": [
+      "DELETE removes specific rows while TRUNCATE removes all rows",
+      "TRUNCATE is faster than DELETE but doesn't log individual row deletions",
+      "DELETE can be rolled back while TRUNCATE cannot in most databases",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct. DELETE removes specific rows and logs each deletion, allowing rollback. TRUNCATE removes all rows, is faster because it doesn't log individual deletions, and typically cannot be rolled back as it's a DDL (Data Definition Language) operation in most databases."
+  },
+  {
+    "question": "What is the purpose of the SQL UNION operator?",
+    "options": [
+      "To join tables horizontally",
+      "To combine the result sets of two or more SELECT statements",
+      "To find the intersection of two result sets",
+      "To create a new table from existing tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The SQL UNION operator combines the result sets of two or more SELECT statements into a single result set. The SELECT statements must have the same number of columns, similar data types, and the columns must be in the same order."
+  },
+  {
+    "question": "What is a database transaction?",
+    "options": [
+      "The process of backing up a database",
+      "A unit of work performed within a database management system",
+      "The exchange of data between two databases",
+      "A payment for database services"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A database transaction is a unit of work performed within a database management system that is treated in a coherent and reliable way independent of other transactions. Transactions follow the ACID properties to ensure data integrity."
+  },
+  {
+    "question": "What is the purpose of an ERD (Entity-Relationship Diagram) in database design?",
+    "options": [
+      "To document database performance metrics",
+      "To visually represent the structure of a database with entities, attributes, and relationships",
+      "To track database error rates",
+      "To calculate the cost of database operations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Entity-Relationship Diagram (ERD) is a visual representation of data entities, their attributes, and the relationships between different entities in a database. It's a crucial tool in database design for planning and communicating the structure before implementation."
+  },
+  {
+    "question": "What is database denormalization?",
+    "options": [
+      "The process of removing duplicate data from a database",
+      "The process of intentionally adding redundancy to a database to improve read performance",
+      "The process of backing up a database",
+      "The process of converting a relational database to a NoSQL database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Denormalization is the process of intentionally adding redundancy to a normalized database to improve read performance. While it may increase storage requirements and make updates more complex, it can significantly speed up query performance for read-heavy applications."
+  },
+  {
+    "question": "What is a composite key in a relational database?",
+    "options": [
+      "A key that automatically increments with each new record",
+      "A key made up of two or more columns to uniquely identify rows",
+      "A key that references multiple tables",
+      "A key that contains encrypted data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A composite key (or compound key) is a key that consists of two or more columns used together to uniquely identify records in a table. It's used when no single column can guarantee uniqueness."
+  },
+  {
+    "question": "What is the difference between a relational database and a NoSQL database?",
+    "options": [
+      "Relational databases can only store structured data, while NoSQL databases can store structured, semi-structured, and unstructured data",
+      "Relational databases use SQL, while NoSQL databases don't necessarily use SQL",
+      "Relational databases use tables with rows and columns, while NoSQL databases use various data models like document, key-value, or graph",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All statements are correct. Relational databases store structured data in tables with predefined schemas and use SQL. NoSQL databases can handle various data types, don't necessarily use SQL, and employ different data models like document stores (MongoDB), key-value stores (Redis), column-family stores (Cassandra), or graph databases (Neo4j)."
+  },
+  {
+    "question": "What is database replication?",
+    "options": [
+      "The process of copying data from one database to another",
+      "The process of backing up a database",
+      "The process of optimizing database queries",
+      "The process of validating database integrity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Database replication is the process of copying data from one database (the primary or master) to one or more databases (the replicas or slaves). It improves availability, reliability, and fault tolerance, and can also improve read performance by distributing read operations across multiple replicas."
+  },
+  {
+    "question": "What is a database schema?",
+    "options": [
+      "A visual representation of database tables",
+      "The structure that represents the logical view of the entire database",
+      "A backup of the database",
+      "A query plan for database operations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A database schema defines the structure and organization of a database. It includes the tables, fields, relationships, views, indexes, procedures, and other database objects, essentially providing a blueprint for how the database is constructed."
+  },
+  {
+    "question": "What is a deadlock in database systems?",
+    "options": [
+      "When a database crashes and cannot be restarted",
+      "When two or more transactions are waiting for one another to release locks",
+      "When a query takes too long to execute",
+      "When database backups fail"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deadlock occurs when two or more transactions are waiting for one another to release locks, resulting in a standstill where none can proceed. Database management systems typically detect deadlocks and resolve them by rolling back one of the transactions."
+  },
+  {
+    "question": "What is the purpose of the SQL ORDER BY clause?",
+    "options": [
+      "To filter rows based on a condition",
+      "To sort the result set in ascending or descending order",
+      "To group rows with the same values",
+      "To join multiple tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The SQL ORDER BY clause is used to sort the result set in ascending or descending order based on one or more columns. By default, it sorts in ascending order, but the DESC keyword can be used to sort in descending order."
+  },
+  {
+    "question": "What is the difference between a LEFT JOIN and a RIGHT JOIN in SQL?",
+    "options": [
+      "They are exactly the same with different syntax",
+      "LEFT JOIN returns all records from the left table and matching records from the right table, while RIGHT JOIN does the opposite",
+      "LEFT JOIN is faster than RIGHT JOIN",
+      "LEFT JOIN can only be used with primary keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A LEFT JOIN returns all records from the left table (the one before the JOIN keyword) and matching records from the right table. A RIGHT JOIN returns all records from the right table and matching records from the left table. Non-matching records will have NULL values for columns from the non-matching side."
+  },
+  {
+    "question": "What is a self-join in SQL?",
+    "options": [
+      "Joining a table with itself",
+      "Joining a table with its backup copy",
+      "Joining a table with its schema definition",
+      "Joining a table with its indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A self-join is a regular join operation where a table is joined with itself. This is useful when a table contains hierarchical data or when you need to compare rows within the same table. It requires table aliases to distinguish between instances of the same table."
+  },
+  {
+    "question": "What is the purpose of database partitioning?",
+    "options": [
+      "To encrypt sensitive data in a database",
+      "To divide a large database into smaller, more manageable pieces",
+      "To create backup copies of a database",
+      "To merge multiple databases into one"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Database partitioning divides large tables into smaller, more manageable pieces called partitions. Each partition can be stored separately, potentially on different storage devices or servers. This improves performance, facilitates maintenance, and enables parallel operations on different partitions."
+  },
+  {
+    "question": "What is a materialized view in a database?",
+    "options": [
+      "A view that can only be accessed by database administrators",
+      "A view that physically stores the result set of a query",
+      "A view that automatically updates when data changes",
+      "A view that can only display graphical data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A materialized view is a database object that contains the results of a query, physically storing the result set rather than executing the query each time the view is accessed. This improves performance for complex queries but requires periodic refreshing to update the stored data."
+  },
+  {
+    "question": "What is OLAP (Online Analytical Processing)?",
+    "options": [
+      "A database backup technique",
+      "A technology that enables fast analysis of multidimensional data",
+      "A method to process online transactions",
+      "A technique to optimize database storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OLAP (Online Analytical Processing) is a technology that enables fast analysis of multidimensional data from multiple perspectives. It's designed for complex queries and data analysis rather than transaction processing, supporting business intelligence and decision-making activities."
+  }
+]

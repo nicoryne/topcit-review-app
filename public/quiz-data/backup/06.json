@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is a project in the context of project management?",
+    "options": [
+      "Any task assigned to an IT team",
+      "A temporary endeavor undertaken to create a unique product, service, or result",
+      "A long-term business operation",
+      "A software development methodology"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project is a temporary endeavor with a defined beginning and end, undertaken to create a unique product, service, or result. It's distinct from ongoing operations because it has specific objectives and constraints of time, cost, and scope."
+  },
+  {
+    "question": "What are the main constraints in project management often referred to as the 'Triple Constraint'?",
+    "options": [
+      "People, Process, Technology",
+      "Cost, Time, Scope",
+      "Risk, Quality, Resources",
+      "Planning, Execution, Monitoring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Triple Constraint in project management refers to the three primary competing constraints: Cost (budget), Time (schedule), and Scope (what must be done). Changes to any one constraint typically affect the others, requiring trade-offs."
+  },
+  {
+    "question": "What is the primary purpose of a project charter?",
+    "options": [
+      "To list all project team members and their contact information",
+      "To formally authorize the project and document initial requirements and stakeholder expectations",
+      "To establish the project budget in detail",
+      "To outline the technical specifications of the deliverables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project charter formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources to project activities. It documents high-level requirements, objectives, and stakeholder expectations."
+  },
+  {
+    "question": "What is the critical path in project management?",
+    "options": [
+      "The most expensive sequence of tasks in a project",
+      "The sequence of tasks that must be completed on time for the project to finish on schedule",
+      "The riskiest tasks in the project",
+      "The tasks assigned to the most critical team members"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The critical path is the sequence of project activities that determine the shortest possible project duration. Any delay in tasks on the critical path will delay the entire project unless corrective action is taken."
+  },
+  {
+    "question": "What is the purpose of a Work Breakdown Structure (WBS)?",
+    "options": [
+      "To assign team members to specific tasks",
+      "To track project expenses in detail",
+      "To decompose the project scope into manageable deliverables and work packages",
+      "To outline the project timeline with specific dates"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Work Breakdown Structure (WBS) is a hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives and create the required deliverables. It organizes and defines the total scope of the project."
+  },
+  {
+    "question": "What is the difference between a risk and an issue in project management?",
+    "options": [
+      "Risks are positive while issues are negative",
+      "Risks are potential future events while issues are problems that have already occurred",
+      "Risks affect cost while issues affect schedule",
+      "Risks are managed by the project manager while issues are managed by the team"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A risk is an uncertain event that might happen in the future and could impact project objectives (positively or negatively). An issue is a problem that has already occurred and requires resolution. Risk management is proactive, while issue management is reactive."
+  },
+  {
+    "question": "What is a milestone in project management?",
+    "options": [
+      "A significant point or event in the project lifecycle",
+      "A metric used to measure project success",
+      "A technique for estimating project duration",
+      "A method for allocating resources"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A milestone is a significant point or event in a project, often marking the completion of a major deliverable or phase. Milestones typically have zero duration and serve as checkpoints to evaluate progress and realign work if necessary."
+  },
+  {
+    "question": "What is stakeholder management in a project?",
+    "options": [
+      "Managing the financial interests of the company's shareholders",
+      "The process of developing appropriate management strategies to effectively engage stakeholders throughout the project lifecycle",
+      "Ensuring stakeholders receive regular status reports",
+      "Limiting stakeholder involvement to minimize project changes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stakeholder management is the process of identifying, analyzing, planning for, communicating with, and monitoring stakeholders throughout the project. The goal is to satisfy their needs, address issues as they occur, and manage conflicting interests."
+  },
+  {
+    "question": "What is the purpose of a Gantt chart in project management?",
+    "options": [
+      "To display the project budget graphically",
+      "To illustrate the project schedule, showing task dependencies and duration",
+      "To show the organizational structure of the project team",
+      "To track issues and risks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Gantt chart is a bar chart that illustrates a project schedule, showing the start and finish dates of project elements such as tasks, milestones, and dependencies. It helps visualize the project timeline and track progress against the planned schedule."
+  },
+  {
+    "question": "What is the primary difference between agile and waterfall project management methodologies?",
+    "options": [
+      "Waterfall is used for software projects, while agile is for construction projects",
+      "Waterfall involves sequential phases completed one after another, while agile uses iterative, incremental work sequences",
+      "Waterfall requires more people than agile",
+      "Agile is always faster than waterfall"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Waterfall is a linear, sequential approach where each phase must be completed before the next begins. Agile is an iterative approach where requirements and solutions evolve through collaboration between cross-functional teams, with work delivered in short cycles called sprints."
+  },
+  {
+    "question": "What is the purpose of a sprint retrospective in Scrum?",
+    "options": [
+      "To plan the work for the next sprint",
+      "To demonstrate completed work to stakeholders",
+      "To review and reflect on the past sprint and identify improvements for the next one",
+      "To update the product backlog"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A sprint retrospective is a meeting held at the end of a sprint where the team reflects on their process, discussing what went well, what could be improved, and what they will commit to improving in the next sprint. It's focused on continuous improvement."
+  },
+  {
+    "question": "What is the role of a project sponsor?",
+    "options": [
+      "To perform the technical work on the project",
+      "To manage the day-to-day activities of the project",
+      "To provide financial resources and champion the project within the organization",
+      "To document project requirements"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A project sponsor is a senior management representative who champions the project within the organization, provides financial resources, removes organizational obstacles, and ensures the project delivers the expected business benefits."
+  },
+  {
+    "question": "What is a project management office (PMO)?",
+    "options": [
+      "The physical location where the project team works",
+      "A temporary committee formed to oversee a specific project",
+      "An organizational structure that standardizes project-related governance processes and facilitates resource sharing",
+      "A software tool for managing projects"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Project Management Office (PMO) is an organizational structure that standardizes project-related governance processes and facilitates the sharing of resources, methodologies, tools, and techniques across projects. It may provide oversight, support, or direct management of projects."
+  },
+  {
+    "question": "What is the purpose of a change control process in project management?",
+    "options": [
+      "To prevent any changes to the project once it has started",
+      "To document all technical changes in the software code",
+      "To formally manage requests to modify any aspect of the project from its approved baseline",
+      "To change the project manager when necessary"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A change control process is used to formally identify, document, evaluate, approve or reject, and track modifications to the project baseline (scope, schedule, budget). It ensures changes are implemented in a controlled manner and their impact is understood."
+  },
+  {
+    "question": "What is earned value management (EVM)?",
+    "options": [
+      "A method for calculating team member bonuses based on performance",
+      "A project management technique for measuring project performance and progress objectively",
+      "A financial accounting method specific to IT projects",
+      "A technique for evaluating vendor proposals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Earned Value Management (EVM) is a project management technique that objectively measures project performance against the planned scope, schedule, and cost. It provides metrics that help forecast future performance based on past trends."
+  },
+  {
+    "question": "What is a project baseline?",
+    "options": [
+      "The minimum acceptable level of project quality",
+      "The approved version of the project scope, schedule, and budget",
+      "The starting point for the project before any work begins",
+      "The benchmark against which competing projects are measured"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project baseline is the approved version of the project scope, schedule, and budget that is used as a reference point to measure and monitor project progress. Changes to the baseline should be formally controlled through the change management process."
+  },
+  {
+    "question": "What is the purpose of a RACI matrix in project management?",
+    "options": [
+      "To measure the project's return on investment",
+      "To assess project risks",
+      "To define roles and responsibilities for project tasks",
+      "To schedule project resources"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A RACI matrix (Responsible, Accountable, Consulted, Informed) is a responsibility assignment chart that clarifies roles and responsibilities for each task, deliverable, or decision in a project, ensuring that everything has a clear owner and all stakeholders understand their involvement."
+  },
+  {
+    "question": "What is the difference between a program and a project?",
+    "options": [
+      "Programs are for software development while projects are for hardware development",
+      "Programs are larger and have more people than projects",
+      "A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually",
+      "Projects have specific end dates while programs are ongoing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A program is a group of related projects, subsidiary programs, and program activities managed in a coordinated manner to obtain benefits not available from managing them individually. While projects deliver outputs, programs deliver outcomes or benefits."
+  },
+  {
+    "question": "What is project scope creep?",
+    "options": [
+      "Gradual increase in project costs over time",
+      "Uncontrolled expansion of project requirements or deliverables",
+      "Slow progress on project tasks",
+      "Decline in team morale as the project progresses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scope creep refers to the uncontrolled expansion of project scope without adjustments to time, cost, or resources. It occurs when changes are implemented without going through the formal change control process, often leading to cost overruns and schedule delays."
+  },
+  {
+    "question": "What is a project management information system (PMIS)?",
+    "options": [
+      "A software tool that automatically manages projects without human intervention",
+      "A system used to provide information about a project to government regulators",
+      "A standardized set of tools and techniques for organizing, planning, and controlling projects",
+      "A database containing lessons learned from past projects"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Project Management Information System (PMIS) is a standardized set of automated tools and techniques used for gathering, integrating, and disseminating the outputs of project management processes. It includes software tools, documentation, and systems that help plan, execute, and control projects."
+  }
+]

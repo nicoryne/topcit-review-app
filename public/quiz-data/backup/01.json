@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which of the following is NOT a principle of object-oriented programming?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Procedural Design"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procedural Design is not a principle of object-oriented programming. OOP principles include Encapsulation, Inheritance, Polymorphism, and Abstraction."
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "System Quality Language",
+      "Software Quality License",
+      "Sequential Query Logic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL stands for Structured Query Language, which is used for managing and manipulating relational databases."
+  },
+  {
+    "question": "Which software development methodology emphasizes incremental delivery through short iterations called 'sprints'?",
+    "options": [
+      "Waterfall",
+      "Scrum",
+      "Kanban",
+      "Extreme Programming"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scrum is an agile methodology that uses time-boxed iterations called 'sprints' to deliver software incrementally."
+  },
+  {
+    "question": "What is the primary purpose of version control systems like Git?",
+    "options": [
+      "To optimize code execution speed",
+      "To track changes in source code over time",
+      "To automatically fix bugs in code",
+      "To compile code for different platforms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Version control systems like Git are primarily used to track changes in source code over time, allowing multiple developers to collaborate and maintain a history of changes."
+  },
+  {
+    "question": "Which data structure operates on a Last-In-First-Out (LIFO) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Linked List",
+      "Binary Tree"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Stack operates on the LIFO principle, where the last element added is the first one to be removed."
+  },
+  {
+    "question": "In software testing, what is a 'regression test'?",
+    "options": [
+      "A test that checks if a software returns to a previous state",
+      "A test that ensures new changes haven't adversely affected existing functionality",
+      "A test that measures system performance over time",
+      "A test that predicts future failures based on past data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regression testing ensures that new changes or additions to the code don't adversely affect existing functionality that was working correctly before."
+  },
+  {
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": [
+      "They are identical with no differences",
+      "'==' checks for value equality while '===' checks for both value and type equality",
+      "'===' checks for value equality while '==' checks for both value and type equality",
+      "'===' is used for assignment while '==' is used for comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, '==' performs type coercion before comparing values, while '===' compares both value and type without coercion."
+  },
+  {
+    "question": "Which of the following is a characteristic of RESTful web services?",
+    "options": [
+      "They always use XML for data transfer",
+      "They maintain client state on the server",
+      "They are stateless",
+      "They require special client libraries"
+    ],
+    "correctAnswer": 2,
+    "explanation": "RESTful web services are stateless, meaning each request from client to server must contain all information needed to understand and process the request."
+  },
+  {
+    "question": "What is the purpose of the 'npm' tool in JavaScript development?",
+    "options": [
+      "Network Programming Module",
+      "Node Package Manager",
+      "New Programming Method",
+      "Network Protocol Manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": "npm (Node Package Manager) is the default package manager for Node.js, used for installing, managing, and sharing JavaScript packages and libraries."
+  },
+  {
+    "question": "Which algorithm is commonly used for finding the shortest path in a graph?",
+    "options": [
+      "Bubble Sort",
+      "Binary Search",
+      "Dijkstra's Algorithm",
+      "Quick Sort"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dijkstra's Algorithm is commonly used to find the shortest path between nodes in a graph, such as road networks or computer networks."
+  },
+  {
+    "question": "What does API stand for in software development?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Program Instruction",
+      "Advanced Programming Integration",
+      "Application Process Initialization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "API stands for Application Programming Interface, which defines interactions between multiple software applications or mixed hardware-software intermediaries."
+  },
+  {
+    "question": "Which of the following best describes 'DevOps'?",
+    "options": [
+      "A programming language",
+      "A type of database",
+      "A set of practices that combines software development and IT operations",
+      "A network security protocol"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle while delivering features, fixes, and updates frequently."
+  },
+  {
+    "question": "What is a 'memory leak' in software?",
+    "options": [
+      "When a program accidentally sends data to external sources",
+      "When a program fails to release memory that is no longer needed",
+      "When a program uses too much processing power",
+      "When a program's data gets corrupted during execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A memory leak occurs when a program allocates memory but fails to release it when it's no longer needed, potentially causing the program to consume increasing amounts of memory over time."
+  },
+  {
+    "question": "Which design pattern is used to create an object in a way that hides the creation logic?",
+    "options": [
+      "Observer Pattern",
+      "Singleton Pattern",
+      "Factory Pattern",
+      "Decorator Pattern"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Factory Pattern is a creational design pattern that provides an interface for creating objects without specifying the exact class of object that will be created."
+  },
+  {
+    "question": "What is the primary benefit of Test-Driven Development (TDD)?",
+    "options": [
+      "It eliminates the need for code reviews",
+      "It produces more robust, bug-free code and provides built-in regression testing",
+      "It reduces the need for documentation",
+      "It speeds up the coding process by eliminating the planning phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TDD helps produce more robust, bug-free code by requiring developers to write tests before implementation, ensuring that requirements are met and providing built-in regression testing."
+  },
+  {
+    "question": "What is a primary purpose of a database index?",
+    "options": [
+      "To store backup copies of data",
+      "To enforce data integrity constraints",
+      "To speed up data retrieval operations",
+      "To compress data to save storage space"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Database indexes are used to speed up data retrieval operations by allowing the database management system to find and access specific rows much faster."
+  },
+  {
+    "question": "In web development, what is CORS?",
+    "options": [
+      "A programming language",
+      "A browser security feature that restricts cross-origin HTTP requests",
+      "A design pattern for responsive websites",
+      "A protocol for secure data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a browser security feature that restricts cross-origin HTTP requests that are initiated from scripts running in the browser."
+  },
+  {
+    "question": "What is a 'callback function' in JavaScript?",
+    "options": [
+      "A function that calls back to the server",
+      "A function passed as an argument to another function, to be executed later",
+      "A function that returns a value back to the main program",
+      "A function that handles error conditions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A callback function is a function passed as an argument to another function, which is then invoked inside the outer function to complete some kind of routine or action."
+  },
+  {
+    "question": "Which of the following is NOT a common software architecture pattern?",
+    "options": [
+      "Microservices",
+      "Model-View-Controller (MVC)",
+      "Recursive Dependency Injection (RDI)",
+      "Service-Oriented Architecture (SOA)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Recursive Dependency Injection (RDI) is not a common software architecture pattern. The other options (Microservices, MVC, and SOA) are well-established architecture patterns."
+  },
+  {
+    "question": "What is the purpose of a CSS preprocessor like SASS or LESS?",
+    "options": [
+      "To optimize CSS for faster loading",
+      "To add programming features like variables and functions to CSS",
+      "To convert CSS to JavaScript",
+      "To automatically fix browser compatibility issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSS preprocessors like SASS or LESS extend the functionality of CSS by adding programming features such as variables, nesting, mixins, and functions, making CSS code more maintainable and reusable."
+  }
+]

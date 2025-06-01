@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the primary goal of information security?",
+    "options": [
+      "To prevent all security breaches",
+      "To protect the confidentiality, integrity, and availability of information",
+      "To encrypt all data transmissions",
+      "To detect and punish hackers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Information security primarily aims to protect the CIA triad: Confidentiality (ensuring information is accessible only to authorized users), Integrity (maintaining accuracy and completeness of data), and Availability (ensuring information is accessible when needed)."
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      "A vulnerability that has existed for less than 24 hours",
+      "A vulnerability that can be exploited without credentials",
+      "A vulnerability that is known to attackers but has no available fix yet",
+      "A vulnerability that affects zero systems"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A zero-day vulnerability is a software security flaw that is unknown to those who should be interested in mitigating it (like the vendor). It's called 'zero-day' because there have been zero days to develop and release a patch since the vulnerability became known."
+  },
+  {
+    "question": "What is phishing?",
+    "options": [
+      "A technique for finding vulnerabilities in wireless networks",
+      "A social engineering attack that tricks users into revealing sensitive information",
+      "A method for encrypting secure communications",
+      "A type of malware that encrypts files for ransom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phishing is a type of social engineering attack where attackers disguise themselves as trustworthy entities to trick users into revealing sensitive information such as passwords, credit card numbers, or personal data."
+  },
+  {
+    "question": "What is the purpose of a firewall in network security?",
+    "options": [
+      "To prevent physical access to network equipment",
+      "To monitor and control incoming and outgoing network traffic based on predetermined security rules",
+      "To encrypt all data transmissions",
+      "To detect and remove viruses from files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. It establishes a barrier between a trusted internal network and untrusted external networks."
+  },
+  {
+    "question": "Which of the following is NOT a common authentication factor?",
+    "options": [
+      "Something you know (like a password)",
+      "Something you have (like a security token)",
+      "Something you are (like a fingerprint)",
+      "Something you share (like public information)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Common authentication factors include 'something you know' (passwords, PINs), 'something you have' (security tokens, smart cards), and 'something you are' (biometrics like fingerprints). 'Something you share' is not a standard authentication factor and contradicts the principle of authentication."
+  },
+  {
+    "question": "What is the principle of least privilege in information security?",
+    "options": [
+      "Users should have the minimum privilege necessary to perform their job functions",
+      "Security systems should use the least amount of processing power possible",
+      "Only high-level administrators should have access to security systems",
+      "Security measures should be invisible to users"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The principle of least privilege states that users or processes should be granted only the minimum level of access rights necessary to perform their job functions. This reduces the attack surface and limits potential damage from accidents or attacks."
+  },
+  {
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "Symmetric encryption is more secure, asymmetric is faster",
+      "Symmetric encryption uses one key for encryption and decryption, asymmetric uses a key pair",
+      "Symmetric encryption is for text, asymmetric is for binary data",
+      "Symmetric encryption is used by governments, asymmetric by private companies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Symmetric encryption uses the same key for both encryption and decryption, while asymmetric encryption uses a public-private key pair. Asymmetric is more complex but solves the key distribution problem inherent in symmetric encryption."
+  },
+  {
+    "question": "What is a man-in-the-middle (MITM) attack?",
+    "options": [
+      "An attack where a person physically positions themselves between two computers",
+      "An attack where the attacker secretly relays and possibly alters communication between two parties",
+      "An attack targeting middle management in organizations",
+      "An attack that occurs at the middle layer of the network protocol stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a man-in-the-middle attack, an attacker secretly intercepts and relays messages between two parties who believe they are communicating directly with each other. The attacker can eavesdrop on or manipulate the intercepted data."
+  },
+  {
+    "question": "What is two-factor authentication (2FA)?",
+    "options": [
+      "Authentication requiring two different passwords",
+      "Authentication using two different usernames",
+      "Authentication requiring factors from two different categories",
+      "Authentication performed by two separate security systems"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Two-factor authentication (2FA) is a security process in which users provide two different authentication factors to verify their identity. This typically combines something you know (like a password) with something you have (like a phone) or something you are (like a fingerprint)."
+  },
+  {
+    "question": "What is a buffer overflow attack?",
+    "options": [
+      "An attack that floods a network with too much traffic",
+      "An attack that exploits memory allocation to run malicious code",
+      "An attack that fills up all available storage space",
+      "An attack that overwhelms system buffers with print requests"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A buffer overflow attack occurs when a program writes more data to a block of memory, or buffer, than the buffer is allocated to hold. This can allow an attacker to overwrite adjacent memory, potentially inserting and executing malicious code."
+  },
+  {
+    "question": "What is the purpose of a CAPTCHA?",
+    "options": [
+      "To encrypt sensitive data",
+      "To distinguish between human users and automated bots",
+      "To compress data for faster transmission",
+      "To scan for malware in uploaded files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is designed to determine whether a user is human or an automated bot. It presents tasks that are easy for humans but difficult for automated programs to solve."
+  },
+  {
+    "question": "What is a denial-of-service (DoS) attack?",
+    "options": [
+      "An attack that denies administrators access to their systems",
+      "An attack that attempts to make a network resource unavailable by flooding it with traffic",
+      "An attack that denies users their service refunds",
+      "An attack that removes service documentation from websites"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A denial-of-service attack attempts to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services. This is typically accomplished by flooding the target with superfluous requests to overload systems and prevent legitimate requests from being fulfilled."
+  },
+  {
+    "question": "What is the purpose of a security audit?",
+    "options": [
+      "To punish employees who violate security policies",
+      "To install security software across an organization",
+      "To systematically evaluate the security of a system or application against a set of criteria",
+      "To recover data after a security breach"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A security audit is a systematic evaluation of an organization's security posture, typically involving assessing how well it conforms to a set of established criteria. It helps identify vulnerabilities, verify compliance with security policies, and recommend improvements."
+  },
+  {
+    "question": "What is the difference between a virus and a worm?",
+    "options": [
+      "Viruses affect hardware, worms affect software",
+      "Viruses require human action to spread, worms can spread automatically",
+      "Viruses encrypt data, worms delete data",
+      "Viruses target personal computers, worms target servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "While both are types of malware, viruses require a host program to run and typically require human action to spread (like opening an infected file). Worms are standalone malicious programs that can replicate and spread automatically across networks without human intervention."
+  },
+  {
+    "question": "What is a virtual private network (VPN)?",
+    "options": [
+      "A private computer network accessible only to organization employees",
+      "A technology that creates a secure, encrypted connection over a less secure network",
+      "A network of virtual machines used for testing security measures",
+      "A private server dedicated to one organization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Virtual Private Network (VPN) creates a secure, encrypted connection over a less secure network, such as the public internet. It allows users to send and receive data across shared or public networks as if their devices were directly connected to a private network."
+  },
+  {
+    "question": "What is social engineering in the context of information security?",
+    "options": [
+      "Using social media for secure communications",
+      "Manipulating people into breaking security procedures or revealing confidential information",
+      "Designing user interfaces that encourage secure behavior",
+      "Using social networks to distribute security updates"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. It relies on human error rather than technical hacking techniques to gain access to systems, networks, or physical locations."
+  },
+  {
+    "question": "What is the purpose of encryption?",
+    "options": [
+      "To compress data for efficient storage",
+      "To convert data into a format that cannot be easily understood by unauthorized people",
+      "To speed up data transmission",
+      "To detect errors in data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption is the process of converting information or data into a code to prevent unauthorized access. It preserves the confidentiality of digital data either stored on computer systems or transmitted via networks like the internet."
+  },
+  {
+    "question": "What is a security incident response plan?",
+    "options": [
+      "A document detailing how security software should be installed",
+      "A documented approach to addressing and managing the aftermath of a security breach or attack",
+      "A plan for responding to emergency situations like fires or floods",
+      "A schedule for regular security audits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security incident response plan is a set of documented procedures that outline the organization's response to various cybersecurity incidents. It typically includes steps for identification, containment, eradication, recovery, and lessons learned following a security breach."
+  },
+  {
+    "question": "What is the purpose of a security patch?",
+    "options": [
+      "To physically cover vulnerable ports on hardware",
+      "To update software by fixing security vulnerabilities",
+      "To monitor network traffic for suspicious activity",
+      "To add new features to security software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A security patch is a software update designed specifically to address security vulnerabilities in a program or operating system. Regularly applying security patches is a critical practice in maintaining system security."
+  },
+  {
+    "question": "What is the principle of defense in depth?",
+    "options": [
+      "Focusing all security resources on defending the most critical systems",
+      "Using multiple layers of security controls throughout an IT system",
+      "Defending only against the most sophisticated attacks",
+      "Employing security professionals with in-depth knowledge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defense in depth is a security strategy that employs multiple layers of controls (preventive, detective, and corrective) throughout an IT system. The idea is that if one defense fails, others will still protect the system, providing redundancy and comprehensive protection."
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which of the following is NOT a principle of object-oriented programming?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Procedural Design"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Procedural Design is not a principle of object-oriented programming. OOP principles include Encapsulation, Inheritance, Polymorphism, and Abstraction."
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "System Quality Language",
+      "Software Quality License",
+      "Sequential Query Logic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL stands for Structured Query Language, which is used for managing and manipulating relational databases."
+  },
+  {
+    "question": "Which software development methodology emphasizes incremental delivery through short iterations called 'sprints'?",
+    "options": [
+      "Waterfall",
+      "Scrum",
+      "Kanban",
+      "Extreme Programming"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scrum is an agile methodology that uses time-boxed iterations called 'sprints' to deliver software incrementally."
+  },
+  {
+    "question": "What is the primary purpose of version control systems like Git?",
+    "options": [
+      "To optimize code execution speed",
+      "To track changes in source code over time",
+      "To automatically fix bugs in code",
+      "To compile code for different platforms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Version control systems like Git are primarily used to track changes in source code over time, allowing multiple developers to collaborate and maintain a history of changes."
+  },
+  {
+    "question": "Which data structure operates on a Last-In-First-Out (LIFO) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Linked List",
+      "Binary Tree"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Stack operates on the LIFO principle, where the last element added is the first one to be removed."
+  },
+  {
+    "question": "In software testing, what is a 'regression test'?",
+    "options": [
+      "A test that checks if a software returns to a previous state",
+      "A test that ensures new changes haven't adversely affected existing functionality",
+      "A test that measures system performance over time",
+      "A test that predicts future failures based on past data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regression testing ensures that new changes or additions to the code don't adversely affect existing functionality that was working correctly before."
+  },
+  {
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": [
+      "They are identical with no differences",
+      "'==' checks for value equality while '===' checks for both value and type equality",
+      "'===' checks for value equality while '==' checks for both value and type equality",
+      "'===' is used for assignment while '==' is used for comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, '==' performs type coercion before comparing values, while '===' compares both value and type without coercion."
+  },
+  {
+    "question": "Which of the following is a characteristic of RESTful web services?",
+    "options": [
+      "They always use XML for data transfer",
+      "They maintain client state on the server",
+      "They are stateless",
+      "They require special client libraries"
+    ],
+    "correctAnswer": 2,
+    "explanation": "RESTful web services are stateless, meaning each request from client to server must contain all information needed to understand and process the request."
+  },
+  {
+    "question": "What is the purpose of the 'npm' tool in JavaScript development?",
+    "options": [
+      "Network Programming Module",
+      "Node Package Manager",
+      "New Programming Method",
+      "Network Protocol Manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": "npm (Node Package Manager) is the default package manager for Node.js, allowing developers to install, share, and manage dependencies in JavaScript projects."
+  },
+  {
+    "question": "What does API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Program Integration",
+      "Advanced Programming Implementation",
+      "Application Protocol Interface"
+    ],
+    "correctAnswer": 0,
+    "explanation": "API stands for Application Programming Interface, which defines interactions between multiple software applications or mixed hardware-software intermediaries."
+  },
+  {
+    "question": "Which of the following best describes 'DevOps'?",
+    "options": [
+      "A programming language",
+      "A type of database",
+      "A set of practices that combines software development and IT operations",
+      "A cloud computing service"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the development lifecycle and provide continuous delivery with high quality."
+  },
+  {
+    "question": "What is a 'memory leak' in programming?",
+    "options": [
+      "When a computer's physical memory card fails",
+      "When a program fails to release memory that is no longer needed",
+      "When a program uses too much processing power",
+      "When a program's data gets corrupted during execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A memory leak occurs when a program allocates memory but fails to release it when it's no longer needed, potentially causing the program to consume increasing amounts of memory over time."
+  },
+  {
+    "question": "Which design pattern is used to create an object in a way that hides the creation logic?",
+    "options": [
+      "Observer Pattern",
+      "Singleton Pattern",
+      "Factory Pattern",
+      "Decorator Pattern"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Factory Pattern is a creational design pattern that provides an interface for creating objects without specifying the exact class of object that will be created."
+  },
+  {
+    "question": "What is the primary benefit of Test-Driven Development (TDD)?",
+    "options": [
+      "It eliminates the need for code reviews",
+      "It produces more robust, bug-free code and provides built-in regression testing",
+      "It reduces the need for documentation",
+      "It speeds up the coding process by eliminating the planning phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TDD helps produce more robust, bug-free code by requiring developers to write tests before implementation, ensuring that requirements are met and providing built-in regression testing."
+  },
+  {
+    "question": "What is a primary purpose of a database index?",
+    "options": [
+      "To store backup copies of data",
+      "To enforce data integrity constraints",
+      "To speed up data retrieval operations",
+      "To compress data to save storage space"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Database indexes are used to speed up data retrieval operations by allowing the database management system to find and access specific rows much faster."
+  },
+  {
+    "question": "In web development, what is CORS?",
+    "options": [
+      "A programming language",
+      "A browser security feature that restricts cross-origin HTTP requests",
+      "A design pattern for responsive websites",
+      "A protocol for secure data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a browser security feature that restricts cross-origin HTTP requests that are initiated from scripts running in the browser."
+  },
+  {
+    "question": "What is a 'callback function' in JavaScript?",
+    "options": [
+      "A function that calls back to the server",
+      "A function passed as an argument to another function, to be executed later",
+      "A function that returns a value back to the main program",
+      "A function that handles error conditions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A callback function is a function passed as an argument to another function, which is then invoked inside the outer function to complete some kind of routine or action."
+  },
+  {
+    "question": "Which of the following is NOT a common software architecture pattern?",
+    "options": [
+      "Microservices",
+      "Model-View-Controller (MVC)",
+      "Recursive Dependency Injection (RDI)",
+      "Service-Oriented Architecture (SOA)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Recursive Dependency Injection (RDI) is not a common software architecture pattern. The other options (Microservices, MVC, and SOA) are well-established architecture patterns."
+  },
+  {
+    "question": "What is the purpose of a CSS preprocessor like SASS or LESS?",
+    "options": [
+      "To optimize CSS for faster loading",
+      "To add programming features like variables and functions to CSS",
+      "To convert CSS to JavaScript",
+      "To automatically fix browser compatibility issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSS preprocessors like SASS or LESS extend the functionality of CSS by adding programming features such as variables, nesting, mixins, and functions, making CSS code more maintainable and reusable."
+  },
+  {
+    "question": "What is the purpose of the OAuth protocol?",
+    "options": [
+      "To encrypt data transmissions",
+      "To allow secure delegated access to resources without sharing credentials",
+      "To compress HTTP requests",
+      "To validate XML documents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OAuth is an open standard protocol that allows secure authorization in a simple and standard method from web, mobile, and desktop applications. It enables users to grant third-party access to their resources without sharing credentials."
+  },
+  {
+    "question": "What does CI/CD stand for in software development?",
+    "options": [
+      "Code Integration/Code Deployment",
+      "Continuous Integration/Continuous Deployment",
+      "Computer Interface/Computer Development",
+      "Coding Interface/Code Distribution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It's a method to frequently deliver apps to customers by introducing automation into the stages of app development."
+  },
+  {
+    "question": "What is a pure function in functional programming?",
+    "options": [
+      "A function written in pure C",
+      "A function that always returns the same result given the same arguments and has no side effects",
+      "A function that only uses primitive data types",
+      "A function that executes in a single CPU thread"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A pure function is a function that, given the same input, will always return the same output and has no side effects (doesn't modify external state or variables)."
+  },
+  {
+    "question": "What is the primary purpose of Docker containers?",
+    "options": [
+      "To replace virtual machines entirely",
+      "To package applications with their dependencies for consistent execution across different environments",
+      "To optimize database performance",
+      "To improve network security"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Docker containers package up code and all its dependencies so the application runs quickly and reliably from one computing environment to another, ensuring consistency across development, testing, and production environments."
+  },
+  {
+    "question": "What is the difference between HTTP and HTTPS?",
+    "options": [
+      "HTTP is newer than HTTPS",
+      "HTTPS includes data encryption using SSL/TLS while HTTP does not",
+      "HTTP is faster but HTTPS is more reliable",
+      "HTTPS works only on mobile devices"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP that uses SSL/TLS encryption for secure communication over a computer network, protecting the privacy and integrity of exchanged data."
+  },
+  {
+    "question": "What is the purpose of WebSockets?",
+    "options": [
+      "To replace HTTP entirely",
+      "To enable two-way interactive communication between a client and server",
+      "To compress web content for faster loading",
+      "To provide DNS resolution services"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WebSockets provide a persistent connection between a client and server that both parties can use to start sending data at any time, enabling real-time communication and updates without requiring the client to submit a request each time."
+  },
+  {
+    "question": "What is the principle of Dependency Injection?",
+    "options": [
+      "Automatically updating dependencies in a project",
+      "Having a class receive its dependencies from external sources rather than creating them",
+      "Removing all external dependencies from a codebase",
+      "Injecting code snippets into a program at runtime"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dependency Injection is a design pattern where a class requests dependencies from external sources rather than creating them. This reduces coupling between classes and makes the system more modular, testable, and maintainable."
+  },
+  {
+    "question": "What is the purpose of a load balancer in web architecture?",
+    "options": [
+      "To optimize database queries",
+      "To distribute network traffic across multiple servers to ensure reliability and availability",
+      "To compress web content",
+      "To encrypt user data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A load balancer distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, improving responsiveness and availability of applications, websites, or databases."
+  },
+  {
+    "question": "Which of the following is NOT part of the SOLID principles?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Continuous Integration Principle",
+      "Interface Segregation Principle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SOLID principles include Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. Continuous Integration is not part of SOLID but is a development practice."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous programming?",
+    "options": [
+      "Synchronous is newer while asynchronous is outdated",
+      "Synchronous executes code sequentially while asynchronous allows operations to complete independently of the main program flow",
+      "Synchronous is only used in mobile development",
+      "Asynchronous is only used in database operations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In synchronous programming, operations are performed one after another, blocking the execution until the current operation completes. Asynchronous programming allows operations to execute in the background without blocking the main program flow."
+  },
+  {
+    "question": "What is the primary benefit of using TypeScript over JavaScript?",
+    "options": [
+      "TypeScript is always faster at runtime",
+      "TypeScript adds static type-checking to help catch errors earlier in development",
+      "TypeScript is natively supported by all browsers",
+      "TypeScript includes a built-in database system"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TypeScript adds static typing to JavaScript, which helps catch type-related errors during development rather than at runtime, improving code quality and developer productivity."
+  },
+  {
+    "question": "What is a middleware in web application frameworks?",
+    "options": [
+      "A database management tool",
+      "Software that acts as a bridge between an operating system and applications",
+      "Functions that have access to the request, response, and next middleware in the application's request-response cycle",
+      "A type of UI component"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In web frameworks, middleware functions have access to the request and response objects and the next middleware function. They can execute code, modify request/response objects, end the request-response cycle, or call the next middleware."
+  },
+  {
+    "question": "What is the purpose of JWT (JSON Web Tokens)?",
+    "options": [
+      "To format JSON data for readability",
+      "To securely transmit information between parties as a compact, self-contained token",
+      "To compress JSON data for storage",
+      "To convert JSON data to XML"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JWT (JSON Web Tokens) are an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object, often used for authentication and information exchange."
+  },
+  {
+    "question": "What is serverless computing?",
+    "options": [
+      "Computing without any servers at all",
+      "A cloud computing execution model where the cloud provider manages server resources dynamically",
+      "Running applications on personal computers instead of servers",
+      "Using peer-to-peer networks for computation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Serverless computing is a cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers. The name is misleading as servers are still used, but developers don't need to manage them."
+  },
+  {
+    "question": "Which of the following is a characteristic of microservices architecture?",
+    "options": [
+      "All components are combined into a single deployment unit",
+      "Services are small, independent, and loosely coupled",
+      "A single database is shared among all services",
+      "All services must be written in the same programming language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Microservices architecture structures an application as a collection of small, independent services that communicate through well-defined APIs. Each service has its own logic and database and can be deployed independently."
+  },
+  {
+    "question": "What is the purpose of the MVC (Model-View-Controller) pattern?",
+    "options": [
+      "To eliminate the need for databases",
+      "To separate application logic into three interconnected components to separate internal representations from user interface",
+      "To simplify network protocols",
+      "To optimize image processing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MVC (Model-View-Controller) is a software design pattern that separates an application into three main components: Model (data and business logic), View (user interface), and Controller (handles user input and updates model and view accordingly)."
+  },
+  {
+    "question": "What is the primary purpose of unit testing?",
+    "options": [
+      "To test the user interface",
+      "To verify that individual units of source code work as expected in isolation",
+      "To test the entire application at once",
+      "To check database performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unit testing is a software testing method where individual units or components of the source code are tested in isolation to determine whether they work as expected."
+  },
+  {
+    "question": "What is the purpose of a linter in software development?",
+    "options": [
+      "To compile code faster",
+      "To analyze code for potential errors, bugs, stylistic issues, and suspicious constructs",
+      "To automatically generate documentation",
+      "To optimize database queries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A linter is a tool that analyzes source code to flag programming errors, bugs, stylistic errors, and suspicious constructs, helping developers maintain code quality and consistency."
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "options": [
+      "To create new variables",
+      "To reference the current object or execution context",
+      "To import external libraries",
+      "To define new functions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, 'this' refers to the object it belongs to or the current execution context. Its value is determined by how a function is called and can vary depending on the calling context."
+  },
+  {
+    "question": "What is the difference between authentication and authorization?",
+    "options": [
+      "They are synonyms with no difference",
+      "Authentication verifies identity while authorization determines access rights",
+      "Authentication determines access rights while authorization verifies identity",
+      "Authentication is for websites while authorization is for mobile apps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authentication is the process of verifying who someone is (identity), while authorization is the process of verifying what specific applications, files, and data a user has access to (permissions)."
+  },
+  {
+    "question": "What is a design pattern in software engineering?",
+    "options": [
+      "A visual template for user interfaces",
+      "A general reusable solution to a commonly occurring problem within a given context",
+      "A type of documentation format",
+      "A coding style guide"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A design pattern is a general, reusable solution to a commonly occurring problem in software design. It's a template for how to solve a problem that can be used in many different situations."
+  },
+  {
+    "question": "What is the difference between cookies and local storage in web browsers?",
+    "options": [
+      "They are identical with different names",
+      "Cookies are sent with every HTTP request while local storage stays in the browser and isn't sent to the server",
+      "Local storage is always encrypted while cookies are not",
+      "Cookies can only store strings while local storage can store any data type"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cookies are small pieces of data sent to the server with every HTTP request, while local storage is a web storage solution that stores data in the browser with no expiration date and isn't sent to the server with HTTP requests."
+  },
+  {
+    "question": "What is a race condition in programming?",
+    "options": [
+      "A competition between different programming languages",
+      "A situation where the behavior of a system depends on the relative timing of events",
+      "A method to test algorithm speed",
+      "A design pattern for optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A race condition occurs when the behavior of a system depends on the sequence or timing of uncontrollable events. It happens when multiple operations happen concurrently and their order affects the outcome."
+  },
+  {
+    "question": "What is the purpose of React's virtual DOM?",
+    "options": [
+      "To create 3D user interfaces",
+      "To optimize rendering performance by minimizing direct manipulation of the actual DOM",
+      "To connect React to databases",
+      "To enable cross-platform mobile development"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React's virtual DOM is a lightweight copy of the actual DOM. React uses it to calculate the most efficient way to update the browser's DOM by comparing the current virtual DOM with a new one after state changes, significantly improving performance."
+  },
+  {
+    "question": "What is the difference between var, let, and const in JavaScript?",
+    "options": [
+      "They are interchangeable with no differences",
+      "var is function-scoped, while let and const are block-scoped; const creates variables whose values cannot be reassigned",
+      "var and let are the same, while const is for constants",
+      "let is outdated, while var and const are modern alternatives"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, var declarations are function-scoped or globally-scoped. let and const are block-scoped. var variables can be updated and redeclared; let variables can be updated but not redeclared; const variables can neither be updated nor redeclared."
+  },
+  {
+    "question": "What does WCAG stand for in web development?",
+    "options": [
+      "Web Content Accessibility Guidelines",
+      "Web Code Analysis Group",
+      "Website Creation Advisory Guide",
+      "World Content and Graphics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WCAG stands for Web Content Accessibility Guidelines. These are guidelines developed to make web content more accessible to people with disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities."
+  },
+  {
+    "question": "What is the purpose of GraphQL?",
+    "options": [
+      "To create graphs and charts in web applications",
+      "A query language for APIs that allows clients to request exactly the data they need",
+      "A database management system for graph databases",
+      "A JavaScript library for data visualization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GraphQL is a query language for APIs developed by Facebook. It allows clients to request exactly the data they need, making it possible to get all required data in a single request, unlike REST which may require multiple requests to different endpoints."
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "options": [
+      "Creating animated bubble effects",
+      "A process where an event triggered on a nested element propagates up through parent elements",
+      "A memory management technique",
+      "A method to organize code in modules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Event bubbling is a mechanism in JavaScript where an event triggered on a nested element 'bubbles up' through its parent elements in the DOM hierarchy. This allows event handlers attached to parent elements to respond to events triggered on their children."
+  },
+  {
+    "question": "What is the difference between HTTP methods GET and POST?",
+    "options": [
+      "GET is outdated while POST is the modern replacement",
+      "GET requests data from a specified resource while POST submits data to be processed to a specified resource",
+      "GET is more secure than POST for all operations",
+      "POST is only used for deleting data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "GET requests data from a specified resource and appends form data to the URL, making it visible in the browser's address bar. POST submits data to be processed to a specified resource and includes the data in the request body, not in the URL."
+  }
+]
